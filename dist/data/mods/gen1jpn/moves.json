@@ -1,0 +1,35 @@
+{
+  "Moves": {
+    "blizzard": {
+      "inherit": true,
+      "secondary": {
+        "chance": 30,
+        "status": "frz"
+      }
+    },
+    "dig": {
+      "inherit": true,
+      "condition": {
+        "duration": 2,
+        "onLockMove": "dig"
+      }
+    },
+    "fly": {
+      "inherit": true,
+      "condition": {
+        "duration": 2,
+        "onLockMove": "fly"
+      }
+    },
+    "substitute": {
+      "inherit": true,
+      "condition": {
+        "onTryHitPriority": -1
+      }
+    },
+    "swift": {
+      "inherit": true,
+      "accuracy": 100
+    }
+  }
+}

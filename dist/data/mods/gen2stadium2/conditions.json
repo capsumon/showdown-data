@@ -1,0 +1,26 @@
+{
+  "Conditions": {
+    "brn": {
+      "name": "brn",
+      "effectType": "Status",
+      "onAfterMoveSelfPriority": 3
+    },
+    "par": {
+      "name": "par",
+      "effectType": "Status",
+      "onBeforeMovePriority": 2
+    },
+    "slp": {
+      "name": "slp",
+      "effectType": "Status",
+      "onBeforeMovePriority": 10
+    },
+    "confusion": {
+      "inherit": true
+    },
+    "residualdmg": {
+      "name": "residualdmg",
+      "onAfterMoveSelfPriority": 100
+    }
+  }
+}

@@ -3,7 +3,7 @@
     "brn": {
       "name": "brn",
       "effectType": "Status",
-      "onResidualOrder": 9
+      "onResidualOrder": 10
     },
     "par": {
       "name": "par",
@@ -50,7 +50,7 @@
     "partiallytrapped": {
       "name": "partiallytrapped",
       "duration": 5,
-      "onResidualOrder": 11
+      "onResidualOrder": 13
     },
     "lockedmove": {
       "name": "lockedmove",
@@ -94,47 +94,47 @@
       "name": "RainDance",
       "effectType": "Weather",
       "duration": 5,
-      "onResidualOrder": 1
+      "onFieldResidualOrder": 1
     },
     "primordialsea": {
       "name": "PrimordialSea",
       "effectType": "Weather",
       "duration": 0,
       "onTryMovePriority": 1,
-      "onResidualOrder": 1
+      "onFieldResidualOrder": 1
     },
     "sunnyday": {
       "name": "SunnyDay",
       "effectType": "Weather",
       "duration": 5,
-      "onResidualOrder": 1
+      "onFieldResidualOrder": 1
     },
     "desolateland": {
       "name": "DesolateLand",
       "effectType": "Weather",
       "duration": 0,
       "onTryMovePriority": 1,
-      "onResidualOrder": 1
+      "onFieldResidualOrder": 1
     },
     "sandstorm": {
       "name": "Sandstorm",
       "effectType": "Weather",
       "duration": 5,
       "onModifySpDPriority": 10,
-      "onResidualOrder": 1
+      "onFieldResidualOrder": 1
     },
     "hail": {
       "name": "Hail",
       "effectType": "Weather",
       "duration": 5,
-      "onResidualOrder": 1
+      "onFieldResidualOrder": 1
     },
     "deltastream": {
       "name": "DeltaStream",
       "effectType": "Weather",
       "duration": 0,
       "onEffectivenessPriority": -1,
-      "onResidualOrder": 1
+      "onFieldResidualOrder": 1
     },
     "dynamax": {
       "name": "Dynamax",

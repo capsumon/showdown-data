@@ -1,6 +1,12 @@
 {
   "Scripts": {
     "inherit": "gen4",
-    "gen": 3
+    "gen": 3,
+    "pokemon": {
+      "inherit": true
+    },
+    "actions": {
+      "inherit": true
+    }
   }
 }

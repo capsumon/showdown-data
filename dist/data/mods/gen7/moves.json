@@ -154,8 +154,8 @@
       "inherit": true,
       "condition": {
         "duration": 5,
-        "onResidualOrder": 21,
-        "onResidualSubOrder": 2
+        "onFieldResidualOrder": 27,
+        "onFieldResidualSubOrder": 7
       }
     },
     "embargo": {
@@ -217,8 +217,9 @@
       "condition": {
         "duration": 5,
         "onResidualOrder": 5,
-        "onResidualSubOrder": 3,
-        "onTerrainPriority": 1
+        "onResidualSubOrder": 2,
+        "onFieldResidualOrder": 27,
+        "onFieldResidualSubOrder": 7
       }
     },
     "guardianofalola": {
@@ -574,8 +575,8 @@
       "condition": {
         "duration": 5,
         "onTryHitPriority": 4,
-        "onResidualOrder": 21,
-        "onResidualSubOrder": 2
+        "onFieldResidualOrder": 27,
+        "onFieldResidualSubOrder": 7
       }
     },
     "psychoboost": {

@@ -114,7 +114,7 @@
       "inherit": true,
       "condition": {
         "duration": 5,
-        "onResidualOrder": 21
+        "onSideResidualOrder": 9
       }
     },
     "lockon": {
@@ -136,7 +136,11 @@
     "meanlook": {
       "inherit": true,
       "accuracy": true,
-      "ignoreAccuracy": false
+      "ignoreAccuracy": false,
+      "flags": {
+        "reflectable": 1,
+        "mirror": 1
+      }
     },
     "metronome": {
       "inherit": true,
@@ -196,6 +200,13 @@
       "accuracy": true,
       "ignoreAccuracy": false
     },
+    "perishsong": {
+      "inherit": true,
+      "condition": {
+        "duration": 4,
+        "onResidualOrder": 4
+      }
+    },
     "petaldance": {
       "inherit": true
     },
@@ -227,7 +238,7 @@
       "inherit": true,
       "condition": {
         "duration": 5,
-        "onResidualOrder": 21
+        "onSideResidualOrder": 9
       }
     },
     "rest": {
@@ -242,6 +253,13 @@
     "roar": {
       "inherit": true,
       "priority": -1
+    },
+    "safeguard": {
+      "inherit": true,
+      "condition": {
+        "duration": 5,
+        "onSideResidualOrder": 8
+      }
     },
     "selfdestruct": {
       "inherit": true,
@@ -272,7 +290,11 @@
     "spiderweb": {
       "inherit": true,
       "accuracy": true,
-      "ignoreAccuracy": false
+      "ignoreAccuracy": false,
+      "flags": {
+        "reflectable": 1,
+        "mirror": 1
+      }
     },
     "spikes": {
       "inherit": true,

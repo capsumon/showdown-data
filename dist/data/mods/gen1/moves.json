@@ -1,8 +1,5 @@
 {
   "Moves": {
-    "absorb": {
-      "inherit": true
-    },
     "acid": {
       "inherit": true,
       "secondary": {
@@ -28,9 +25,6 @@
           "atk": -1
         }
       }
-    },
-    "barrage": {
-      "inherit": true
     },
     "bide": {
       "inherit": true,
@@ -64,9 +58,6 @@
       "accuracy": 90,
       "target": "normal"
     },
-    "bonemerang": {
-      "inherit": true
-    },
     "bubble": {
       "inherit": true,
       "secondary": {
@@ -95,9 +86,6 @@
         "volatileStatus": "partialtrappinglock"
       }
     },
-    "cometpunch": {
-      "inherit": true
-    },
     "constrict": {
       "inherit": true,
       "secondary": {
@@ -123,9 +111,6 @@
       "inherit": true,
       "critRatio": 2
     },
-    "defensecurl": {
-      "inherit": true
-    },
     "dig": {
       "inherit": true,
       "basePower": 100,
@@ -149,21 +134,9 @@
       "inherit": true,
       "basePower": 100
     },
-    "doublekick": {
-      "inherit": true
-    },
-    "doubleslap": {
-      "inherit": true
-    },
     "dragonrage": {
       "inherit": true,
       "basePower": 1
-    },
-    "dreameater": {
-      "inherit": true
-    },
-    "earthquake": {
-      "inherit": true
     },
     "explosion": {
       "inherit": true,
@@ -186,9 +159,6 @@
         "volatileStatus": "partialtrappinglock"
       }
     },
-    "fissure": {
-      "inherit": true
-    },
     "fly": {
       "inherit": true,
       "condition": {
@@ -199,12 +169,6 @@
     "focusenergy": {
       "inherit": true,
       "condition": {}
-    },
-    "furyattack": {
-      "inherit": true
-    },
-    "furyswipes": {
-      "inherit": true
     },
     "glare": {
       "inherit": true,
@@ -217,9 +181,6 @@
         "spd": 1
       }
     },
-    "guillotine": {
-      "inherit": true
-    },
     "gust": {
       "inherit": true,
       "type": "Normal"
@@ -229,12 +190,6 @@
       "target": "self"
     },
     "highjumpkick": {
-      "inherit": true
-    },
-    "horndrill": {
-      "inherit": true
-    },
-    "hyperbeam": {
       "inherit": true
     },
     "jumpkick": {
@@ -278,25 +233,13 @@
     "mimic": {
       "inherit": true
     },
-    "minimize": {
-      "inherit": true
-    },
     "mirrormove": {
-      "inherit": true
-    },
-    "mist": {
       "inherit": true
     },
     "nightshade": {
       "inherit": true,
       "ignoreImmunity": true,
       "basePower": 1
-    },
-    "petaldance": {
-      "inherit": true
-    },
-    "pinmissile": {
-      "inherit": true
     },
     "poisonsting": {
       "inherit": true,
@@ -408,18 +351,6 @@
       "inherit": true,
       "heal": null
     },
-    "solarbeam": {
-      "inherit": true
-    },
-    "sonicboom": {
-      "inherit": true
-    },
-    "spikecannon": {
-      "inherit": true
-    },
-    "stomp": {
-      "inherit": true
-    },
     "struggle": {
       "inherit": true,
       "pp": 10,
@@ -427,12 +358,6 @@
         1,
         2
       ]
-    },
-    "stunspore": {
-      "inherit": true
-    },
-    "submission": {
-      "inherit": true
     },
     "substitute": {
       "num": 164,
@@ -456,15 +381,6 @@
       "ignoreImmunity": true,
       "basePower": 1
     },
-    "swift": {
-      "inherit": true
-    },
-    "takedown": {
-      "inherit": true
-    },
-    "thrash": {
-      "inherit": true
-    },
     "thunder": {
       "inherit": true,
       "secondary": {
@@ -476,15 +392,9 @@
       "inherit": true,
       "accuracy": 100
     },
-    "transform": {
-      "inherit": true
-    },
     "triattack": {
       "inherit": true,
       "secondary": null
-    },
-    "twineedle": {
-      "inherit": true
     },
     "whirlwind": {
       "inherit": true,

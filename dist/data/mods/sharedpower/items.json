@@ -1,0 +1,10 @@
+{
+  "Items": {
+    "adrenalineorb": {
+      "inherit": true
+    },
+    "protectivepads": {
+      "inherit": true
+    }
+  }
+}

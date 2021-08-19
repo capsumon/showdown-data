@@ -1,5 +1,5 @@
 {
-  "Formats": {
+  "Rulesets": {
     "standard": {
       "effectType": "ValidatorRule",
       "name": "Standard",
@@ -34,195 +34,34 @@
         "Soul Dew"
       ]
     },
-    "standardgbu": {
+    "flatrules": {
       "effectType": "ValidatorRule",
-      "name": "Standard GBU",
-      "desc": "The standard ruleset for all official in-game Pok&eacute;mon tournaments and Battle Spot",
+      "name": "Flat Rules",
+      "desc": "The in-game Flat Rules: Adjust Level Down 50, Species Clause, Item Clause, -Mythical, -Restricted Legendary, Bring 6 Pick 3-6 depending on game type.",
       "ruleset": [
         "Obtainable",
         "Team Preview",
         "Species Clause",
         "Nickname Clause",
         "Item Clause",
+        "Adjust Level Down = 50",
+        "Picked Team Size = Auto",
         "Cancel Mod"
       ],
       "banlist": [
-        "Battle Bond",
-        "Mewtwo",
-        "Mew",
-        "Lugia",
-        "Ho-Oh",
-        "Celebi",
-        "Kyogre",
-        "Groudon",
-        "Rayquaza",
-        "Jirachi",
-        "Deoxys",
-        "Dialga",
-        "Palkia",
-        "Giratina",
-        "Phione",
-        "Manaphy",
-        "Darkrai",
-        "Shaymin",
-        "Arceus",
-        "Victini",
-        "Reshiram",
-        "Zekrom",
-        "Kyurem",
-        "Keldeo",
-        "Meloetta",
-        "Genesect",
-        "Xerneas",
-        "Yveltal",
-        "Zygarde",
-        "Diancie",
-        "Hoopa",
-        "Volcanion",
-        "Cosmog",
-        "Cosmoem",
-        "Solgaleo",
-        "Lunala",
-        "Necrozma",
-        "Magearna",
-        "Marshadow",
-        "Zeraora",
-        "Meltan",
-        "Melmetal",
-        "Zacian",
-        "Zamazenta",
-        "Eternatus",
-        "Zarude",
-        "Calyrex"
+        "Mythical",
+        "Restricted Legendary"
       ]
     },
-    "minimalgbu": {
+    "limittworestricted": {
       "effectType": "ValidatorRule",
-      "name": "Minimal GBU",
-      "desc": "The standard ruleset for official tournaments, but two Restricted Legendaries are allowed",
-      "ruleset": [
-        "Obtainable",
-        "Species Clause",
-        "Nickname Clause",
-        "Item Clause",
-        "Team Preview",
-        "Cancel Mod"
-      ],
-      "banlist": [
-        "Battle Bond",
-        "Mew",
-        "Celebi",
-        "Jirachi",
-        "Deoxys",
-        "Phione",
-        "Manaphy",
-        "Darkrai",
-        "Shaymin",
-        "Arceus",
-        "Victini",
-        "Keldeo",
-        "Meloetta",
-        "Genesect",
-        "Diancie",
-        "Hoopa",
-        "Volcanion",
-        "Magearna",
-        "Marshadow",
-        "Zeraora",
-        "Meltan",
-        "Melmetal",
-        "Zarude"
-      ],
-      "restricted": [
-        "Mewtwo",
-        "Lugia",
-        "Ho-Oh",
-        "Kyogre",
-        "Groudon",
-        "Rayquaza",
-        "Dialga",
-        "Palkia",
-        "Giratina",
-        "Reshiram",
-        "Zekrom",
-        "Kyurem",
-        "Xerneas",
-        "Yveltal",
-        "Zygarde",
-        "Cosmog",
-        "Cosmoem",
-        "Solgaleo",
-        "Lunala",
-        "Necrozma",
-        "Zacian",
-        "Zamazenta",
-        "Eternatus",
-        "Calyrex"
-      ]
+      "name": "Limit Two Restricted",
+      "desc": "Limit two restricted Pokémon (flagged with * in the rules list)"
     },
-    "singlerestrictedgbu": {
+    "limitonerestricted": {
       "effectType": "ValidatorRule",
-      "name": "Single Restricted GBU",
-      "desc": "The standard ruleset for official tournaments, but one Restricted Legendary is allowed",
-      "ruleset": [
-        "Obtainable",
-        "Species Clause",
-        "Nickname Clause",
-        "Item Clause",
-        "Team Preview",
-        "Cancel Mod"
-      ],
-      "banlist": [
-        "Battle Bond",
-        "Mew",
-        "Celebi",
-        "Jirachi",
-        "Deoxys",
-        "Phione",
-        "Manaphy",
-        "Darkrai",
-        "Shaymin",
-        "Arceus",
-        "Victini",
-        "Keldeo",
-        "Meloetta",
-        "Genesect",
-        "Diancie",
-        "Hoopa",
-        "Volcanion",
-        "Magearna",
-        "Marshadow",
-        "Zeraora",
-        "Meltan",
-        "Melmetal",
-        "Zarude"
-      ],
-      "restricted": [
-        "Mewtwo",
-        "Lugia",
-        "Ho-Oh",
-        "Kyogre",
-        "Groudon",
-        "Rayquaza",
-        "Dialga",
-        "Palkia",
-        "Giratina",
-        "Reshiram",
-        "Zekrom",
-        "Kyurem",
-        "Xerneas",
-        "Yveltal",
-        "Zygarde",
-        "Cosmog",
-        "Cosmoem",
-        "Solgaleo",
-        "Lunala",
-        "Necrozma",
-        "Zacian",
-        "Zamazenta",
-        "Eternatus",
-        "Calyrex"
-      ]
+      "name": "Limit One Restricted",
+      "desc": "Limit one restricted Pokémon (flagged with * in the rules list)"
     },
     "standarddoubles": {
       "effectType": "ValidatorRule",
@@ -264,6 +103,7 @@
         "Obtainable Moves",
         "Obtainable Abilities",
         "Obtainable Formes",
+        "EV Limit = Auto",
         "Obtainable Misc"
       ],
       "banlist": [
@@ -290,7 +130,7 @@
     "obtainablemisc": {
       "effectType": "ValidatorRule",
       "name": "Obtainable Misc",
-      "desc": "Validate all obtainability things that aren't moves/abilities (Hidden Power type, gender, stats, etc)."
+      "desc": "Validate all obtainability things that aren't moves/abilities (Hidden Power type, gender, IVs, events, duplicate moves)."
     },
     "hoennpokedex": {
       "effectType": "ValidatorRule",
@@ -301,6 +141,16 @@
       "effectType": "ValidatorRule",
       "name": "Sinnoh Pokedex",
       "desc": "Only allows Pok&eacute;mon native to the Sinnoh region (Platinum)"
+    },
+    "oldunovapokedex": {
+      "effectType": "ValidatorRule",
+      "name": "Old Unova Pokedex",
+      "desc": "Only allows Pok&eacute;mon native to the Unova region as of the original Black/White games"
+    },
+    "newunovapokedex": {
+      "effectType": "ValidatorRule",
+      "name": "New Unova Pokedex",
+      "desc": "Only allows Pok&eacute;mon native to the Unova region as of the Black 2/White 2 games"
     },
     "kalospokedex": {
       "effectType": "ValidatorRule",
@@ -331,9 +181,25 @@
       "name": "Crown Tundra Pokedex",
       "desc": "Only allows Pok&eacute;mon native to the Crown Tundra in the Galar Region (Sw/Sh DLC2)"
     },
+    "galarexpansionpokedex": {
+      "effectType": "ValidatorRule",
+      "name": "Galar Expansion Pokedex",
+      "desc": "Only allows Pok&eacute;mon native to the Galar region, Isle of Armor, or Crown Tundra (Sw/Sh + Expansion Pass)"
+    },
     "potd": {
       "effectType": "Rule",
       "name": "PotD"
+    },
+    "forcemonotype": {
+      "effectType": "ValidatorRule",
+      "name": "Force Monotype",
+      "hasValue": true
+    },
+    "evlimits": {
+      "effectType": "ValidatorRule",
+      "name": "EV Limits",
+      "desc": "Require EVs to be in specific ranges, such as: \"EV Limits = Atk 0-124 / Def 100-252\"",
+      "hasValue": true
     },
     "teampreview": {
       "effectType": "Rule",
@@ -343,17 +209,26 @@
     "onevsone": {
       "effectType": "Rule",
       "name": "One vs One",
-      "desc": "Only allows one Pok&eacute;mon in battle"
+      "desc": "Only allows one Pok&eacute;mon in battle",
+      "ruleset": [
+        "Picked Team Size = 1"
+      ]
     },
     "twovstwo": {
       "effectType": "Rule",
       "name": "Two vs Two",
-      "desc": "Only allows two Pok&eacute;mon in battle"
+      "desc": "Only allows two Pok&eacute;mon in battle",
+      "ruleset": [
+        "Picked Team Size = 2"
+      ]
     },
     "littlecup": {
       "effectType": "ValidatorRule",
       "name": "Little Cup",
-      "desc": "Only allows Pok&eacute;mon that can evolve and don't have any prior evolutions"
+      "desc": "Only allows Pok&eacute;mon that can evolve and don't have any prior evolutions",
+      "ruleset": [
+        "Max Level = 5"
+      ]
     },
     "blitz": {
       "effectType": "Rule",
@@ -626,6 +501,12 @@
       "onNegateImmunity": false,
       "onEffectivenessPriority": 1
     },
+    "minsourcegen": {
+      "effectType": "ValidatorRule",
+      "name": "Min Source Gen",
+      "desc": "Pokemon must be obtained from this generation or later.",
+      "hasValue": "positive-integer"
+    },
     "stabmonsmovelegality": {
       "effectType": "ValidatorRule",
       "name": "STABmons Move Legality",
@@ -635,6 +516,11 @@
       "effectType": "ValidatorRule",
       "name": "Alphabet Cup Move Legality",
       "desc": "Allows Pok&eacute;mon to use any move that shares the same first letter as their name or a previous evolution's name."
+    },
+    "sketchmonsmovelegality": {
+      "effectType": "ValidatorRule",
+      "name": "Sketchmons Move Legality",
+      "desc": "Pok&eacute;mon can learn one of any move they don't normally learn."
     },
     "allowtradeback": {
       "effectType": "ValidatorRule",
@@ -669,17 +555,155 @@
     "350cupmod": {
       "effectType": "Rule",
       "name": "350 Cup Mod",
-      "desc": "If a Pok&eacute;mon's BST is 350 or lower, all of its stats get doubled."
+      "desc": "If a Pok&eacute;mon's BST is 350 or lower, all of its stats get doubled.",
+      "onModifySpeciesPriority": 2
     },
     "flippedmod": {
       "effectType": "Rule",
       "name": "Flipped Mod",
-      "desc": "Every Pok&eacute;mon's stats are reversed. HP becomes Spe, Atk becomes Sp. Def, Def becomes Sp. Atk, and vice versa."
+      "desc": "Every Pok&eacute;mon's stats are reversed. HP becomes Spe, Atk becomes Sp. Def, Def becomes Sp. Atk, and vice versa.",
+      "onModifySpeciesPriority": 2
     },
     "scalemonsmod": {
       "effectType": "Rule",
       "name": "Scalemons Mod",
-      "desc": "Every Pok&eacute;mon's stats, barring HP, are scaled to give them a BST as close to 600 as possible"
+      "desc": "Every Pok&eacute;mon's stats, barring HP, are scaled to give them a BST as close to 600 as possible",
+      "onModifySpeciesPriority": 1
+    },
+    "teamtypepreview": {
+      "effectType": "Rule",
+      "name": "Team Type Preview",
+      "desc": "Allows each player to see the Pok&eacute;mon on their opponent's team and those Pok&eacute;mon's types before they choose their lead Pok&eacute;mon"
+    },
+    "aaarestrictedabilities": {
+      "effectType": "ValidatorRule",
+      "name": "AAA Restricted Abilities",
+      "desc": "Allows validation for AAA formats to use restricted abilities instead of banned ones."
+    },
+    "eventmovesclause": {
+      "effectType": "ValidatorRule",
+      "name": "Event Moves Clause",
+      "desc": "Bans moves only obtainable through events."
+    },
+    "pickedteamsize": {
+      "effectType": "Rule",
+      "name": "Picked Team Size",
+      "desc": "Team size (number of pokemon) that can be brought out of Team Preview",
+      "hasValue": "positive-integer"
+    },
+    "minteamsize": {
+      "effectType": "ValidatorRule",
+      "name": "Min Team Size",
+      "desc": "Minimum team size (number of pokemon) that can be brought into Team Preview (or into the battle, in formats without Team Preview)",
+      "hasValue": "positive-integer"
+    },
+    "evlimit": {
+      "effectType": "ValidatorRule",
+      "name": "EV Limit",
+      "desc": "Maximum total EVs on each pokemon.",
+      "hasValue": "integer"
+    },
+    "maxteamsize": {
+      "effectType": "ValidatorRule",
+      "name": "Max Team Size",
+      "desc": "Maximum team size (number of pokemon) that can be brought into Team Preview (or into the battle, in formats without Team Preview)",
+      "hasValue": "positive-integer"
+    },
+    "maxmovecount": {
+      "effectType": "ValidatorRule",
+      "name": "Max Move Count",
+      "desc": "Max number of moves allowed on a single pokemon (defaults to 4 in a normal game)",
+      "hasValue": "positive-integer"
+    },
+    "maxtotallevel": {
+      "effectType": "Rule",
+      "name": "Max Total Level",
+      "desc": "Teams are restricted to a total maximum Level limit and Pokemon are restricted to a set range of Levels",
+      "hasValue": "positive-integer"
+    },
+    "minlevel": {
+      "effectType": "ValidatorRule",
+      "name": "Min Level",
+      "desc": "Minimum level of brought Pokémon",
+      "hasValue": "positive-integer"
+    },
+    "maxlevel": {
+      "effectType": "ValidatorRule",
+      "name": "Max Level",
+      "desc": "Maximum level of brought Pokémon (if you're using both this and Adjust Level, this will control what level moves you have access to)",
+      "hasValue": "positive-integer"
+    },
+    "defaultlevel": {
+      "effectType": "ValidatorRule",
+      "name": "Default Level",
+      "desc": "Default level of brought Pokémon (normally should be equal to Max Level, except Custom Games have a very high max level but still default to 100)",
+      "hasValue": "positive-integer"
+    },
+    "adjustlevel": {
+      "effectType": "ValidatorRule",
+      "name": "Adjust Level",
+      "desc": "All Pokémon will be set to exactly this level (but unlike Max Level and Min Level, it will still be able to learn moves from above this level) (when using this, Max Level is the level of the pokemon before it's level-adjusted down)",
+      "hasValue": "positive-integer",
+      "mutuallyExclusiveWith": "adjustleveldown"
+    },
+    "adjustleveldown": {
+      "effectType": "ValidatorRule",
+      "name": "Adjust Level Down",
+      "desc": "Any Pokémon above this level will be set to this level (but unlike Max Level, it will still be able to learn moves from above this level)",
+      "hasValue": "positive-integer",
+      "mutuallyExclusiveWith": "adjustlevel"
+    },
+    "stadiumitemsclause": {
+      "effectType": "ValidatorRule",
+      "name": "Stadium Items Clause",
+      "desc": "Bans items that are not usable in Pokemon Stadium 2.",
+      "banlist": [
+        "Fast Ball",
+        "Friend Ball",
+        "Great Ball",
+        "Heavy Ball",
+        "Level Ball",
+        "Love Ball",
+        "Lure Ball",
+        "Master Ball",
+        "Moon Ball",
+        "Park Ball",
+        "Poke Ball",
+        "Safari Ball",
+        "Ultra Ball",
+        "Fire Stone",
+        "Leaf Stone",
+        "Moon Stone",
+        "Sun Stone",
+        "Thunder Stone",
+        "Upgrade",
+        "Water Stone",
+        "Mail"
+      ]
+    },
+    "nintendocup2000movelegality": {
+      "effectType": "ValidatorRule",
+      "name": "Nintendo Cup 2000 Move Legality",
+      "desc": "Prevents Pokémon from having moves that would only be obtainable in Pokémon Crystal."
+    },
+    "nintendocup1997movelegality": {
+      "effectType": "ValidatorRule",
+      "name": "Nintendo Cup 1997 Move Legality",
+      "desc": "Bans move combinations on Pokémon that weren't legal in Nintendo Cup 1997."
+    },
+    "noswitching": {
+      "effectType": "Rule",
+      "name": "No Switching",
+      "desc": "All Pokémon are trapped (cannot switch naturally, but can as the effect of an item, move, or Ability)."
+    },
+    "chimera1v1rule": {
+      "effectType": "Rule",
+      "name": "Chimera 1v1 Rule",
+      "desc": "Validation and battle effects for Chimera 1v1.",
+      "ruleset": [
+        "Team Preview",
+        "Picked Team Size = 6"
+      ]
     }
   }
 }

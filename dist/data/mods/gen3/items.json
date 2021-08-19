@@ -2,15 +2,18 @@
   "Items": {
     "aguavberry": {
       "inherit": true,
-      "onResidualOrder": 5
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
     },
     "apicotberry": {
       "inherit": true,
-      "onResidualOrder": 5
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
     },
     "berryjuice": {
       "inherit": true,
-      "onResidualOrder": 5,
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4,
       "isNonstandard": "Unobtainable"
     },
     "blackbelt": {
@@ -35,32 +38,37 @@
     },
     "figyberry": {
       "inherit": true,
-      "onResidualOrder": 5
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
     },
     "ganlonberry": {
       "inherit": true,
-      "onResidualOrder": 5
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
     },
     "hardstone": {
       "inherit": true
     },
     "iapapaberry": {
       "inherit": true,
-      "onResidualOrder": 5
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
     },
     "kingsrock": {
       "inherit": true
     },
     "lansatberry": {
       "inherit": true,
-      "onResidualOrder": 5
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
     },
     "laxincense": {
       "inherit": true
     },
     "liechiberry": {
       "inherit": true,
-      "onResidualOrder": 5
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
     },
     "lightball": {
       "inherit": true
@@ -70,7 +78,8 @@
     },
     "magoberry": {
       "inherit": true,
-      "onResidualOrder": 5
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
     },
     "metalcoat": {
       "inherit": true
@@ -86,11 +95,13 @@
     },
     "oranberry": {
       "inherit": true,
-      "onResidualOrder": 5
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
     },
     "petayaberry": {
       "inherit": true,
-      "onResidualOrder": 5
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
     },
     "poisonbarb": {
       "inherit": true
@@ -100,7 +111,8 @@
     },
     "salacberry": {
       "inherit": true,
-      "onResidualOrder": 5
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
     },
     "seaincense": {
       "inherit": true
@@ -116,7 +128,8 @@
     },
     "sitrusberry": {
       "inherit": true,
-      "onResidualOrder": 5
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
     },
     "softsand": {
       "inherit": true
@@ -126,14 +139,16 @@
     },
     "starfberry": {
       "inherit": true,
-      "onResidualOrder": 5
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
     },
     "twistedspoon": {
       "inherit": true
     },
     "wikiberry": {
       "inherit": true,
-      "onResidualOrder": 5
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
     }
   }
 }

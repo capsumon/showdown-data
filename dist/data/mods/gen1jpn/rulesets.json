@@ -1,0 +1,29 @@
+{
+  "Rulesets": {
+    "standard": {
+      "effectType": "ValidatorRule",
+      "name": "Standard",
+      "ruleset": [
+        "Obtainable",
+        "Desync Clause Mod",
+        "Sleep Clause Mod",
+        "Freeze Clause Mod",
+        "Species Clause",
+        "OHKO Clause",
+        "Evasion Moves Clause",
+        "Endless Battle Clause",
+        "HP Percentage Mod",
+        "Cancel Mod"
+      ],
+      "banlist": [
+        "Dig",
+        "Fly"
+      ]
+    },
+    "nintendocup1997movelegality": {
+      "effectType": "ValidatorRule",
+      "name": "Nintendo Cup 1997 Move Legality",
+      "desc": "Bans move combinations on Pokémon that would only be obtainable in Pokémon Yellow."
+    }
+  }
+}

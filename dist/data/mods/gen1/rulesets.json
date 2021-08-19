@@ -1,5 +1,5 @@
 {
-  "Formats": {
+  "Rulesets": {
     "standard": {
       "effectType": "ValidatorRule",
       "name": "Standard",

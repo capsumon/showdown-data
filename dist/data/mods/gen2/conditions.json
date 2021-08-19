@@ -17,7 +17,8 @@
     },
     "frz": {
       "name": "frz",
-      "inherit": true
+      "inherit": true,
+      "onResidualOrder": 7
     },
     "psn": {
       "name": "psn",
@@ -33,13 +34,28 @@
       "inherit": true
     },
     "partiallytrapped": {
-      "inherit": true
+      "inherit": true,
+      "onResidualOrder": 3,
+      "onResidualSubOrder": 1
     },
     "lockedmove": {
       "name": "lockedmove"
     },
+    "futuremove": {
+      "inherit": true,
+      "onResidualOrder": 1
+    },
+    "raindance": {
+      "inherit": true,
+      "onFieldResidualOrder": 2
+    },
+    "sunnyday": {
+      "inherit": true,
+      "onFieldResidualOrder": 2
+    },
     "sandstorm": {
-      "inherit": true
+      "inherit": true,
+      "onFieldResidualOrder": 2
     },
     "stall": {
       "name": "stall",

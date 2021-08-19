@@ -6821,6 +6821,9 @@
       "heightm": 1.7,
       "weightkg": 55.4,
       "color": "Blue",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ],
@@ -6883,6 +6886,9 @@
       "heightm": 1.6,
       "weightkg": 52.6,
       "color": "Yellow",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ],
@@ -6945,6 +6951,9 @@
       "heightm": 2,
       "weightkg": 60,
       "color": "Yellow",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ],
@@ -7098,6 +7107,9 @@
       "eggGroups": [
         "Undiscovered"
       ],
+      "tags": [
+        "Restricted Legendary"
+      ],
       "otherFormes": [
         "Mewtwo-Mega-X",
         "Mewtwo-Mega-Y"
@@ -7186,6 +7198,9 @@
       "heightm": 0.4,
       "weightkg": 4,
       "color": "Pink",
+      "tags": [
+        "Mythical"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -10304,6 +10319,9 @@
       "heightm": 1.9,
       "weightkg": 178,
       "color": "Yellow",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -10330,6 +10348,9 @@
       "heightm": 2.1,
       "weightkg": 198,
       "color": "Brown",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -10356,6 +10377,9 @@
       "heightm": 2,
       "weightkg": 187,
       "color": "Blue",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -10505,6 +10529,9 @@
       "heightm": 5.2,
       "weightkg": 216,
       "color": "White",
+      "tags": [
+        "Restricted Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -10532,6 +10559,9 @@
       "heightm": 3.8,
       "weightkg": 199,
       "color": "Red",
+      "tags": [
+        "Restricted Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -10558,6 +10588,9 @@
       "heightm": 0.6,
       "weightkg": 5,
       "color": "Green",
+      "tags": [
+        "Mythical"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -15074,6 +15107,9 @@
       "heightm": 1.7,
       "weightkg": 230,
       "color": "Brown",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -15100,6 +15136,9 @@
       "heightm": 1.8,
       "weightkg": 175,
       "color": "Blue",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -15126,6 +15165,9 @@
       "heightm": 1.9,
       "weightkg": 205,
       "color": "Gray",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -15152,6 +15194,9 @@
       "heightm": 1.4,
       "weightkg": 40,
       "color": "Red",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ],
@@ -15217,6 +15262,9 @@
       "eggGroups": [
         "Undiscovered"
       ],
+      "tags": [
+        "Sub-Legendary"
+      ],
       "otherFormes": [
         "Latios-Mega"
       ],
@@ -15275,6 +15323,9 @@
       "heightm": 4.5,
       "weightkg": 352,
       "color": "Blue",
+      "tags": [
+        "Restricted Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ],
@@ -15335,6 +15386,9 @@
       "heightm": 3.5,
       "weightkg": 950,
       "color": "Red",
+      "tags": [
+        "Restricted Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ],
@@ -15397,6 +15451,9 @@
       "heightm": 7,
       "weightkg": 206.5,
       "color": "Green",
+      "tags": [
+        "Restricted Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ],
@@ -15459,6 +15516,9 @@
       "heightm": 0.3,
       "weightkg": 1.1,
       "color": "Yellow",
+      "tags": [
+        "Mythical"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -15487,6 +15547,9 @@
       "color": "Red",
       "eggGroups": [
         "Undiscovered"
+      ],
+      "tags": [
+        "Mythical"
       ],
       "otherFormes": [
         "Deoxys-Attack",
@@ -18901,6 +18964,9 @@
       "heightm": 0.3,
       "weightkg": 0.3,
       "color": "Yellow",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -18926,6 +18992,9 @@
       "heightm": 0.3,
       "weightkg": 0.3,
       "color": "Pink",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -18951,6 +19020,9 @@
       "heightm": 0.3,
       "weightkg": 0.3,
       "color": "Blue",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -18977,6 +19049,9 @@
       },
       "heightm": 5.4,
       "weightkg": 683,
+      "tags": [
+        "Restricted Legendary"
+      ],
       "color": "White",
       "eggGroups": [
         "Undiscovered"
@@ -19005,6 +19080,9 @@
       "heightm": 4.2,
       "weightkg": 336,
       "color": "Purple",
+      "tags": [
+        "Restricted Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -19031,6 +19109,9 @@
       "heightm": 1.7,
       "weightkg": 430,
       "color": "Brown",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -19056,6 +19137,9 @@
       "heightm": 3.7,
       "weightkg": 420,
       "color": "White",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -19086,6 +19170,9 @@
       "color": "Black",
       "eggGroups": [
         "Undiscovered"
+      ],
+      "tags": [
+        "Restricted Legendary"
       ],
       "otherFormes": [
         "Giratina-Origin"
@@ -19146,6 +19233,9 @@
       "heightm": 1.5,
       "weightkg": 85.6,
       "color": "Yellow",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -19171,6 +19261,9 @@
       "heightm": 0.4,
       "weightkg": 3.1,
       "color": "Blue",
+      "tags": [
+        "Mythical"
+      ],
       "eggGroups": [
         "Water 1",
         "Fairy"
@@ -19197,6 +19290,9 @@
       "heightm": 0.3,
       "weightkg": 1.4,
       "color": "Blue",
+      "tags": [
+        "Mythical"
+      ],
       "eggGroups": [
         "Water 1",
         "Fairy"
@@ -19223,6 +19319,9 @@
       "heightm": 1.5,
       "weightkg": 50.5,
       "color": "Black",
+      "tags": [
+        "Mythical"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -19251,6 +19350,9 @@
       "color": "Green",
       "eggGroups": [
         "Undiscovered"
+      ],
+      "tags": [
+        "Mythical"
       ],
       "otherFormes": [
         "Shaymin-Sky"
@@ -19311,6 +19413,9 @@
       "heightm": 3.2,
       "weightkg": 320,
       "color": "White",
+      "tags": [
+        "Mythical"
+      ],
       "eggGroups": [
         "Undiscovered"
       ],
@@ -19921,6 +20026,9 @@
       "heightm": 0.4,
       "weightkg": 4,
       "color": "Yellow",
+      "tags": [
+        "Mythical"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -24551,6 +24659,9 @@
       "heightm": 2.1,
       "weightkg": 250,
       "color": "Blue",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -24577,6 +24688,9 @@
       "heightm": 1.9,
       "weightkg": 260,
       "color": "Gray",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -24603,6 +24717,9 @@
       "heightm": 2,
       "weightkg": 200,
       "color": "Green",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -24630,6 +24747,9 @@
       "heightm": 1.5,
       "weightkg": 63,
       "color": "Green",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ],
@@ -24693,6 +24813,9 @@
       "heightm": 1.5,
       "weightkg": 61,
       "color": "Blue",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ],
@@ -24755,6 +24878,9 @@
       "heightm": 3.2,
       "weightkg": 330,
       "color": "White",
+      "tags": [
+        "Restricted Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -24781,6 +24907,9 @@
       "heightm": 2.9,
       "weightkg": 345,
       "color": "Black",
+      "tags": [
+        "Restricted Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -24809,6 +24938,9 @@
       "heightm": 1.5,
       "weightkg": 68,
       "color": "Brown",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ],
@@ -24873,6 +25005,9 @@
       "color": "Gray",
       "eggGroups": [
         "Undiscovered"
+      ],
+      "tags": [
+        "Restricted Legendary"
       ],
       "otherFormes": [
         "Kyurem-Black",
@@ -24968,6 +25103,9 @@
       "eggGroups": [
         "Undiscovered"
       ],
+      "tags": [
+        "Mythical"
+      ],
       "otherFormes": [
         "Keldeo-Resolute"
       ],
@@ -25032,6 +25170,9 @@
       "eggGroups": [
         "Undiscovered"
       ],
+      "tags": [
+        "Mythical"
+      ],
       "otherFormes": [
         "Meloetta-Pirouette"
       ],
@@ -25094,6 +25235,9 @@
       "color": "Purple",
       "eggGroups": [
         "Undiscovered"
+      ],
+      "tags": [
+        "Mythical"
       ],
       "otherFormes": [
         "Genesect-Douse",
@@ -27764,6 +27908,9 @@
       "eggGroups": [
         "Undiscovered"
       ],
+      "tags": [
+        "Restricted Legendary"
+      ],
       "otherFormes": [
         "Xerneas-Neutral"
       ],
@@ -27821,6 +27968,9 @@
       "heightm": 5.8,
       "weightkg": 203,
       "color": "Red",
+      "tags": [
+        "Restricted Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -27849,6 +27999,9 @@
       "heightm": 5,
       "weightkg": 305,
       "color": "Green",
+      "tags": [
+        "Restricted Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ],
@@ -27954,6 +28107,9 @@
       "eggGroups": [
         "Undiscovered"
       ],
+      "tags": [
+        "Mythical"
+      ],
       "otherFormes": [
         "Diancie-Mega"
       ],
@@ -28017,6 +28173,9 @@
       "eggGroups": [
         "Undiscovered"
       ],
+      "tags": [
+        "Mythical"
+      ],
       "otherFormes": [
         "Hoopa-Unbound"
       ],
@@ -28076,6 +28235,9 @@
       "heightm": 1.7,
       "weightkg": 195,
       "color": "Brown",
+      "tags": [
+        "Mythical"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -30017,6 +30179,9 @@
       "heightm": 1.9,
       "weightkg": 120.5,
       "color": "Gray",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "evos": [
         "Silvally"
       ],
@@ -30045,6 +30210,9 @@
       "heightm": 2.3,
       "weightkg": 100.5,
       "color": "Gray",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "prevo": "Type: Null",
       "evoType": "levelFriendship",
       "eggGroups": [
@@ -31130,6 +31298,9 @@
       "heightm": 1.8,
       "weightkg": 20.5,
       "color": "Yellow",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31157,6 +31328,9 @@
       "heightm": 1.2,
       "weightkg": 18.6,
       "color": "Pink",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31184,6 +31358,9 @@
       "heightm": 1.9,
       "weightkg": 45.5,
       "color": "Red",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31211,6 +31388,9 @@
       "heightm": 1.3,
       "weightkg": 21.2,
       "color": "Purple",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31239,6 +31419,9 @@
       "evos": [
         "Cosmoem"
       ],
+      "tags": [
+        "Restricted Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31264,6 +31447,9 @@
       "heightm": 0.1,
       "weightkg": 999.9,
       "color": "Blue",
+      "tags": [
+        "Restricted Legendary"
+      ],
       "prevo": "Cosmog",
       "evoLevel": 43,
       "evos": [
@@ -31296,6 +31482,9 @@
       "heightm": 3.4,
       "weightkg": 230,
       "color": "White",
+      "tags": [
+        "Restricted Legendary"
+      ],
       "prevo": "Cosmoem",
       "evoLevel": 53,
       "eggGroups": [
@@ -31324,6 +31513,9 @@
       "heightm": 4,
       "weightkg": 120,
       "color": "Purple",
+      "tags": [
+        "Restricted Legendary"
+      ],
       "prevo": "Cosmoem",
       "evoLevel": 53,
       "eggGroups": [
@@ -31352,6 +31544,9 @@
       "heightm": 1.2,
       "weightkg": 55.5,
       "color": "White",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31378,6 +31573,9 @@
       "heightm": 2.4,
       "weightkg": 333.6,
       "color": "Red",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31404,6 +31602,9 @@
       "heightm": 1.8,
       "weightkg": 25,
       "color": "White",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31429,6 +31630,9 @@
       "heightm": 3.8,
       "weightkg": 100,
       "color": "Black",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31455,6 +31659,9 @@
       "heightm": 9.2,
       "weightkg": 999.9,
       "color": "Green",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31481,6 +31688,9 @@
       "heightm": 0.3,
       "weightkg": 0.1,
       "color": "White",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31507,6 +31717,9 @@
       "heightm": 5.5,
       "weightkg": 888,
       "color": "Black",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31532,6 +31745,9 @@
       "heightm": 2.4,
       "weightkg": 230,
       "color": "Black",
+      "tags": [
+        "Restricted Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ],
@@ -31663,6 +31879,9 @@
       "eggGroups": [
         "Undiscovered"
       ],
+      "tags": [
+        "Mythical"
+      ],
       "otherFormes": [
         "Magearna-Original"
       ],
@@ -31721,6 +31940,9 @@
       "heightm": 0.7,
       "weightkg": 22.2,
       "color": "Gray",
+      "tags": [
+        "Mythical"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31746,6 +31968,9 @@
       "heightm": 0.6,
       "weightkg": 1.8,
       "color": "Purple",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "evos": [
         "Naganadel"
       ],
@@ -31775,6 +32000,9 @@
       "heightm": 3.6,
       "weightkg": 150,
       "color": "Purple",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "prevo": "Poipole",
       "evoType": "levelMove",
       "evoMove": "Dragon Pulse",
@@ -31804,6 +32032,9 @@
       "heightm": 5.5,
       "weightkg": 820,
       "color": "Gray",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31830,6 +32061,9 @@
       "heightm": 1.8,
       "weightkg": 13,
       "color": "White",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31855,6 +32089,9 @@
       "heightm": 1.5,
       "weightkg": 44.5,
       "color": "Yellow",
+      "tags": [
+        "Mythical"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31880,6 +32117,9 @@
       "heightm": 0.2,
       "weightkg": 8,
       "color": "Gray",
+      "tags": [
+        "Mythical"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -31905,6 +32145,9 @@
       "heightm": 2.5,
       "weightkg": 800,
       "color": "Gray",
+      "tags": [
+        "Mythical"
+      ],
       "eggGroups": [
         "Undiscovered"
       ],
@@ -35147,6 +35390,7 @@
     "zacian": {
       "num": 888,
       "name": "Zacian",
+      "baseForme": "Hero",
       "types": [
         "Fairy"
       ],
@@ -35167,6 +35411,9 @@
       "color": "Blue",
       "eggGroups": [
         "Undiscovered"
+      ],
+      "tags": [
+        "Restricted Legendary"
       ],
       "otherFormes": [
         "Zacian-Crowned"
@@ -35211,6 +35458,7 @@
     "zamazenta": {
       "num": 889,
       "name": "Zamazenta",
+      "baseForme": "Hero",
       "types": [
         "Fighting"
       ],
@@ -35231,6 +35479,9 @@
       "color": "Red",
       "eggGroups": [
         "Undiscovered"
+      ],
+      "tags": [
+        "Restricted Legendary"
       ],
       "otherFormes": [
         "Zamazenta-Crowned"
@@ -35297,6 +35548,9 @@
       "eggGroups": [
         "Undiscovered"
       ],
+      "tags": [
+        "Restricted Legendary"
+      ],
       "otherFormes": [
         "Eternatus-Eternamax"
       ],
@@ -35359,6 +35613,9 @@
       "heightm": 0.6,
       "weightkg": 12,
       "color": "Gray",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "evos": [
         "Urshifu",
         "Urshifu-Rapid-Strike"
@@ -35393,6 +35650,9 @@
       "heightm": 1.9,
       "weightkg": 105,
       "color": "Gray",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "prevo": "Kubfu",
       "evoType": "other",
       "evoCondition": "Defeat the Single Strike Tower",
@@ -35533,6 +35793,9 @@
       "eggGroups": [
         "Undiscovered"
       ],
+      "tags": [
+        "Mythical"
+      ],
       "otherFormes": [
         "Zarude-Dada"
       ],
@@ -35590,6 +35853,9 @@
       "heightm": 1.2,
       "weightkg": 145,
       "color": "Yellow",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -35615,6 +35881,9 @@
       "heightm": 2.1,
       "weightkg": 200,
       "color": "Green",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -35640,6 +35909,9 @@
       "heightm": 2.2,
       "weightkg": 800,
       "color": "White",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -35665,6 +35937,9 @@
       "heightm": 2,
       "weightkg": 44.5,
       "color": "Black",
+      "tags": [
+        "Sub-Legendary"
+      ],
       "eggGroups": [
         "Undiscovered"
       ]
@@ -35693,6 +35968,9 @@
       "color": "Green",
       "eggGroups": [
         "Undiscovered"
+      ],
+      "tags": [
+        "Restricted Legendary"
       ],
       "otherFormes": [
         "Calyrex-Ice",
@@ -37686,6 +37964,33 @@
       "eggGroups": [
         "Bug",
         "Dragon"
+      ],
+      "gen": 8
+    },
+    "chromera": {
+      "num": -60,
+      "name": "Chromera",
+      "types": [
+        "Dark",
+        "Poison"
+      ],
+      "gender": "N",
+      "baseStats": {
+        "hp": 85,
+        "atk": 85,
+        "def": 115,
+        "spa": 115,
+        "spd": 100,
+        "spe": 100
+      },
+      "abilities": {
+        "0": "Color Change"
+      },
+      "heightm": 2.5,
+      "weightkg": 215,
+      "color": "Purple",
+      "eggGroups": [
+        "Undiscovered"
       ],
       "gen": 8
     },

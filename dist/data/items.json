@@ -55,6 +55,7 @@
       "fling": {
         "basePower": 30
       },
+      "onBoostPriority": 1,
       "boosts": {
         "spe": 1
       },
@@ -317,7 +318,7 @@
         "basePower": 30
       },
       "onResidualOrder": 5,
-      "onResidualSubOrder": 5,
+      "onResidualSubOrder": 4,
       "num": 281,
       "gen": 4
     },
@@ -1228,8 +1229,8 @@
         "basePower": 30,
         "status": "brn"
       },
-      "onResidualOrder": 26,
-      "onResidualSubOrder": 2,
+      "onResidualOrder": 28,
+      "onResidualSubOrder": 3,
       "num": 273,
       "gen": 4
     },
@@ -2020,7 +2021,7 @@
         "basePower": 10
       },
       "onResidualOrder": 5,
-      "onResidualSubOrder": 5,
+      "onResidualSubOrder": 4,
       "num": 234,
       "gen": 2
     },
@@ -2992,9 +2993,6 @@
       "fling": {
         "basePower": 30
       },
-      "onAttractPriority": -1,
-      "onBoostPriority": -1,
-      "onDamagePriority": -1,
       "num": 880,
       "gen": 7
     },
@@ -3801,8 +3799,8 @@
       "fling": {
         "basePower": 80
       },
-      "onResidualOrder": 26,
-      "onResidualSubOrder": 2,
+      "onResidualOrder": 28,
+      "onResidualSubOrder": 3,
       "num": 288,
       "gen": 4
     },
@@ -3961,8 +3959,8 @@
         "basePower": 30,
         "status": "tox"
       },
-      "onResidualOrder": 26,
-      "onResidualSubOrder": 2,
+      "onResidualOrder": 28,
+      "onResidualSubOrder": 3,
       "num": 272,
       "gen": 4
     },

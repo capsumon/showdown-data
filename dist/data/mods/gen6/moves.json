@@ -27,7 +27,7 @@
       "inherit": true,
       "condition": {
         "duration": 3,
-        "onResidualOrder": 13
+        "onResidualOrder": 16
       }
     },
     "fellstinger": {
@@ -53,8 +53,8 @@
       "inherit": true,
       "condition": {
         "duration": 5,
-        "onResidualOrder": 21,
-        "onResidualSubOrder": 2
+        "onFieldResidualOrder": 27,
+        "onFieldResidualSubOrder": 7
       }
     },
     "mysticalfire": {

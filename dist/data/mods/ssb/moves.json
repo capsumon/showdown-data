@@ -102,9 +102,9 @@
     },
     "lilypadoverflow": {
       "accuracy": 100,
-      "basePower": 60,
+      "basePower": 62,
       "category": "Special",
-      "desc": "Power is equal to 60 + (Number of Raindrops collected * 20). Whether or not this move is successful, the user's Defense and Special Defense decrease by as many stages as Raindrop had increased them, and the user's Raindrop count resets to 0.",
+      "desc": "Power is equal to 62 + (Number of Raindrops collected * 20). Whether or not this move is successful, the user's Defense and Special Defense decrease by as many stages as Raindrop had increased them, and the user's Raindrop count resets to 0.",
       "shortDesc": "More power per Raindrop. Lose Raindrops.",
       "name": "Lilypad Overflow",
       "gen": 8,
@@ -246,8 +246,8 @@
       "terrain": "waveterrain",
       "condition": {
         "duration": 5,
-        "onResidualOrder": 5,
-        "onResidualSubOrder": 3
+        "onFieldResidualOrder": 21,
+        "onFieldResidualSubOrder": 3
       },
       "secondary": null,
       "target": "all",
@@ -277,7 +277,7 @@
       "accuracy": 100,
       "basePower": 180,
       "category": "Special",
-      "desc": "User gains Brilliant if not Brilliant without attacking. User attacks and loses Brilliant if Brilliant. Being Brilliant multiplies all stats by 1.5 and grants Perish Song immunity and Ingrain.",
+      "desc": "User gains Brilliant if not Brilliant without attacking. User attacks and loses Brilliant if Brilliant. Being Brilliant multiplies all stats by 1.5 and grants Perish Song immunity and Ingrain. This move loses priority if the user is already brilliant.",
       "shortDesc": "Gain or lose Brilliant. Attack if Brilliant.",
       "name": "Radiant Burst",
       "gen": 8,
@@ -290,23 +290,6 @@
       "secondary": null,
       "target": "normal",
       "type": "Fairy"
-    },
-    "hatofwisdom": {
-      "accuracy": 100,
-      "basePower": 110,
-      "category": "Special",
-      "desc": "The user switches out, and this move deals damage one turn after it is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Special Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move, Future Sight, or Doom Desire is already in effect for the target's position.",
-      "shortDesc": "Hits 1 turn after being used. User switches.",
-      "name": "Hat of Wisdom",
-      "gen": 8,
-      "pp": 15,
-      "priority": 0,
-      "flags": {},
-      "ignoreImmunity": true,
-      "isFutureMove": true,
-      "secondary": null,
-      "target": "normal",
-      "type": "Psychic"
     },
     "awa": {
       "accuracy": 100,
@@ -436,8 +419,8 @@
       "terrain": "baneterrain",
       "condition": {
         "duration": 5,
-        "onResidualOrder": 5,
-        "onResidualSubOrder": 3
+        "onFieldResidualOrder": 21,
+        "onFieldResidualSubOrder": 3
       },
       "secondary": null,
       "target": "all",
@@ -634,8 +617,8 @@
       "accuracy": 100,
       "basePower": 78,
       "category": "Special",
-      "desc": "The user switches out after damaging the target. The target is forced out after being damaged.",
-      "shortDesc": "Phazes target and switches user out.",
+      "desc": "The target is forced out after being damaged.",
+      "shortDesc": "Phazes target.",
       "name": "GET OFF MY LAWN!",
       "gen": 8,
       "pp": 10,
@@ -648,7 +631,6 @@
       },
       "secondary": null,
       "forceSwitch": true,
-      "selfSwitch": true,
       "target": "normal",
       "type": "Normal"
     },
@@ -964,8 +946,8 @@
       "accuracy": 100,
       "category": "Special",
       "basePower": 0,
-      "desc": "The foe is hit with a hurricane with a Base Power that varies based on the strength (category) of the hurricane. Category 1 is 65, category 2 is 85, category 3 is 95, category 4 is 115, and category 5 is 140. In addition, the target's side of the field is covered in a storm surge. Storm surge applies a 1/2 Speed multiplier to pokemon on that side of the field. Storm surge will last for as many turns as the hurricane's category (not including the turn Landfall was used).",
-      "shortDesc": "Higher category = +dmg, foe side speed 1/2.",
+      "desc": "The foe is hit with a hurricane with a Base Power that varies based on the strength (category) of the hurricane. Category 1 is 65, category 2 is 85, category 3 is 95, category 4 is 115, and category 5 is 140. In addition, the target's side of the field is covered in a storm surge. Storm surge applies a 75% Speed multiplier to pokemon on that side of the field. Storm surge will last for as many turns as the hurricane's category (not including the turn Landfall was used).",
+      "shortDesc": "Higher category = +dmg, foe side speed 75%.",
       "name": "Landfall",
       "gen": 8,
       "pp": 5,
@@ -1045,24 +1027,29 @@
       "target": "normal",
       "type": "Dark"
     },
-    "satanicpanic": {
+    "sodabreak": {
       "accuracy": true,
-      "basePower": 0,
-      "category": "Status",
-      "desc": "Exchanges places with the opponent, and then forcibly switches both. This move fails if either side has only one Pokemon left.",
-      "shortDesc": "Trades places with the target. Force switches both.",
-      "name": "Satanic Panic",
+      "basePower": 10,
+      "category": "Physical",
+      "desc": "Has a 100% chance to make the target flinch. Causes the user to switch out. Fails unless it is the user's first turn on the field.",
+      "shortDesc": "First turn: Flinches the target then switches out.",
+      "name": "Soda Break",
+      "isNonstandard": "Custom",
       "gen": 8,
-      "pp": 1,
-      "noPPBoosts": true,
+      "pp": 10,
       "priority": 3,
       "flags": {
-        "authentic": 1
+        "contact": 1,
+        "protect": 1,
+        "mirror": 1
       },
-      "isZ": "sodapop",
-      "secondary": null,
+      "secondary": {
+        "chance": 100,
+        "volatileStatus": "flinch"
+      },
+      "selfSwitch": true,
       "target": "normal",
-      "type": "Dark"
+      "type": "???"
     },
     "patronaattack": {
       "accuracy": 100,
@@ -1286,8 +1273,8 @@
       "accuracy": 100,
       "basePower": 90,
       "category": "Physical",
-      "desc": "The user restores 1/8 of its maximum HP. Target can't use status moves for its next 3 turns. Lowers the target's Attack by 1 stage. At the end of the move, the user switches out.",
-      "shortDesc": "Heals 1/8, taunts, lowers Atk, switches out.",
+      "desc": "Target can't use status moves for its next 3 turns. Lowers the target's Attack by 1 stage. At the end of the move, the user switches out.",
+      "shortDesc": "Taunts, lowers Atk, switches out.",
       "name": "Clash of Pangoros",
       "gen": 8,
       "pp": 10,
@@ -1399,6 +1386,23 @@
       "secondary": null,
       "target": "self",
       "type": "Normal"
+    },
+    "hatofwisdom": {
+      "accuracy": 100,
+      "basePower": 110,
+      "category": "Special",
+      "desc": "The user switches out, and this move deals damage one turn after it is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Special Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move, Future Sight, or Doom Desire is already in effect for the target's position.",
+      "shortDesc": "Hits 1 turn after being used. User switches.",
+      "name": "Hat of Wisdom",
+      "gen": 8,
+      "pp": 15,
+      "priority": 0,
+      "flags": {},
+      "ignoreImmunity": true,
+      "isFutureMove": true,
+      "secondary": null,
+      "target": "normal",
+      "type": "Psychic"
     },
     "callamaty": {
       "accuracy": 100,
@@ -1549,7 +1553,7 @@
       "name": "Mad Hacks",
       "gen": 8,
       "pp": 5,
-      "priority": 0,
+      "priority": -7,
       "flags": {
         "snatch": 1
       },
@@ -1726,7 +1730,7 @@
       "type": "Dark"
     },
     "trickery": {
-      "accuracy": 85,
+      "accuracy": 95,
       "basePower": 100,
       "category": "Physical",
       "desc": "Changes the target's item to something random.",
@@ -1754,8 +1758,7 @@
       "noPPBoosts": true,
       "priority": 0,
       "flags": {
-        "protect": 1,
-        "reflectable": 1
+        "protect": 1
       },
       "condition": {},
       "secondary": null,
@@ -1858,34 +1861,12 @@
         "duration": 5,
         "onBasePowerPriority": 6,
         "onResidualOrder": 5,
-        "onResidualSubOrder": 3
+        "onFieldResidualOrder": 21,
+        "onFieldResidualSubOrder": 3
       },
       "secondary": null,
       "target": "all",
       "type": "Ground"
-    },
-    "triplethreat": {
-      "accuracy": 100,
-      "basePower": 40,
-      "category": "Physical",
-      "desc": "Has a 40, 60, or 100 Base Power and a 10%, 25%, or 40% chance to apply any non-volatile status aside from freeze; the status chance and base power increase for each consecutive hit up to 3.",
-      "shortDesc": "Chance to random status. Chance&BP+ per use.",
-      "name": "Triple Threat",
-      "gen": 8,
-      "pp": 20,
-      "priority": 0,
-      "flags": {
-        "protect": 1,
-        "mirror": 1
-      },
-      "secondary": {
-        "chance": 10
-      },
-      "condition": {
-        "onTryMovePriority": -2
-      },
-      "target": "normal",
-      "type": "Normal"
     },
     "psychodrive": {
       "accuracy": 100,
@@ -1970,8 +1951,8 @@
         "duration": 5,
         "onNegateImmunity": false,
         "onEffectivenessPriority": 1,
-        "onResidualOrder": 5,
-        "onResidualSubOrder": 3
+        "onFieldResidualOrder": 21,
+        "onFieldResidualSubOrder": 3
       },
       "secondary": null,
       "target": "all",
@@ -2068,7 +2049,8 @@
         "duration": 5,
         "onSwitchInPriority": -1,
         "onResidualOrder": 5,
-        "onResidualSubOrder": 3
+        "onFieldResidualOrder": 21,
+        "onFieldResidualSubOrder": 3
       },
       "secondary": null,
       "target": "all",
@@ -2140,8 +2122,8 @@
       "accuracy": true,
       "basePower": 0,
       "category": "Status",
-      "desc": "Raises the Special Attack of the user, and either Defense or Special Defense randomly, by 1 stage.",
-      "shortDesc": "Gives +1 SpA and +1 Def or SpD",
+      "desc": "Raises the Defense and Special Defense by 1 stage. Lowers the foe's higher offensive stat by 1 stage.",
+      "shortDesc": "+1 Def & SpD. -1 to foe's highest offensive stat.",
       "name": "Homunculus's Vanity",
       "gen": 8,
       "pp": 10,
@@ -2163,8 +2145,8 @@
       "accuracy": 100,
       "basePower": 0,
       "category": "Status",
-      "desc": "The user loses 1/2 of its maximum HP, rounded down and even if it would cause fainting, in exchange for the target losing 1/4 of its maximum HP, rounded down, at the end of each turn while it is active. If the target uses Baton Pass, the replacement will continue to be affected. Fails if there is no target or if the target is already affected. Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
-      "shortDesc": "Curses the target for 1/2 HP and traps it.",
+      "desc": "The user loses 1/4 of its maximum HP, rounded down and even if it would cause fainting, in exchange for the target losing 1/4 of its maximum HP, rounded down, at the end of each turn while it is active. If the target uses Baton Pass, the replacement will continue to be affected. Fails if there is no target or if the target is already affected. Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
+      "shortDesc": "Curses the target for 1/4 HP and traps it.",
       "name": "Tsukuyomi",
       "gen": 8,
       "pp": 5,
@@ -2289,7 +2271,8 @@
       "condition": {
         "duration": 5,
         "onResidualOrder": 5,
-        "onResidualSubOrder": 3
+        "onFieldResidualOrder": 21,
+        "onFieldResidualSubOrder": 3
       },
       "secondary": null,
       "target": "all",
@@ -2384,8 +2367,8 @@
       "accuracy": 100,
       "basePower": 73,
       "category": "Special",
-      "desc": "Has a 100% chance to raise the user's Speed by 1 stage.",
-      "shortDesc": "+1 Speed if successful.",
+      "desc": "Has a 75% chance to raise the user's Speed by 1 stage.",
+      "shortDesc": "75% chance to raise the user's Speed by 1 stage.",
       "name": "Watt Up",
       "gen": 8,
       "pp": 15,
@@ -2395,7 +2378,7 @@
         "mirror": 1
       },
       "secondary": {
-        "chance": 100,
+        "chance": 75,
         "self": {
           "boosts": {
             "spe": 1
@@ -2440,7 +2423,7 @@
       "priority": 0,
       "flags": {
         "protect": 1,
-        "reflectable": 1
+        "snatch": 1
       },
       "secondary": null,
       "target": "self",

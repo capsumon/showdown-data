@@ -315,27 +315,6 @@
       },
       "nature": "Jolly"
     },
-    "Averardo": {
-      "species": "Hattrem",
-      "ability": "Magic Hat",
-      "item": "Eviolite",
-      "gender": "M",
-      "moves": [
-        "Nuzzle",
-        "Flamethrower",
-        "Healing Wish"
-      ],
-      "signatureMove": "Hat of Wisdom",
-      "evs": {
-        "hp": 252,
-        "def": 4,
-        "spd": 252
-      },
-      "ivs": {
-        "atk": 0
-      },
-      "nature": "Sassy"
-    },
     "awa!": {
       "species": "Lycanroc",
       "ability": "Sand Rush",
@@ -418,7 +397,7 @@
     },
     "Blaz": {
       "species": "Carbink",
-      "ability": "Why Worry",
+      "ability": "Solid Rock",
       "item": "Leftovers",
       "gender": "N",
       "moves": [
@@ -515,14 +494,14 @@
       "gender": "M",
       "moves": [
         "Haze",
-        "Life Dew",
+        "Jungle Healing",
         [
+          "Baton Pass",
           "Poison Gas",
           "Corrosive Gas",
           "Magic Powder",
           "Speed Swap",
           "Spite",
-          "Refresh",
           "Screech",
           "Trick Room",
           "Heal Block",
@@ -1138,14 +1117,14 @@
     "instruct": {
       "species": "Riolu",
       "ability": "Truant",
-      "item": "Soda Pop",
+      "item": "Heavy-Duty Boots",
       "gender": "",
       "moves": [
         "Explosion",
         "Lunar Dance",
         "Memento"
       ],
-      "signatureMove": "Fake Out",
+      "signatureMove": "Soda Break",
       "evs": {
         "hp": 252,
         "atk": 4,
@@ -1498,6 +1477,27 @@
       "nature": "Adamant",
       "shiny": true
     },
+    "Lunala": {
+      "species": "Hattrem",
+      "ability": "Magic Hat",
+      "item": "Eviolite",
+      "gender": "F",
+      "moves": [
+        "Nuzzle",
+        "Flamethrower",
+        "Healing Wish"
+      ],
+      "signatureMove": "Hat of Wisdom",
+      "evs": {
+        "hp": 252,
+        "def": 4,
+        "spd": 252
+      },
+      "ivs": {
+        "atk": 0
+      },
+      "nature": "Sassy"
+    },
     "Mad Monty ¾°": {
       "species": "Zekrom",
       "ability": "Petrichor",
@@ -1513,9 +1513,6 @@
         "atk": 252,
         "def": 4,
         "spe": 252
-      },
-      "ivs": {
-        "def": 0
       },
       "nature": "Jolly",
       "shiny": true
@@ -1998,24 +1995,6 @@
       },
       "nature": "Calm"
     },
-    "quadrophenic": {
-      "species": "Dodrio",
-      "ability": "Extreme Ways",
-      "item": "Choice Band",
-      "gender": "N",
-      "moves": [
-        "Dragon Ascent",
-        "Close Combat",
-        "U-turn"
-      ],
-      "signatureMove": "Triple Threat",
-      "evs": {
-        "atk": 252,
-        "spd": 4,
-        "spe": 252
-      },
-      "nature": "Jolly"
-    },
     "Rabia": {
       "species": "Mew",
       "ability": "Psychic Surge",
@@ -2214,7 +2193,7 @@
       "nature": "Hasty",
       "skip": "Robb576"
     },
-    "SectoniaServant": {
+    "Sectonia": {
       "species": "Reuniclus",
       "ability": "Royal Aura",
       "item": "Leftovers",

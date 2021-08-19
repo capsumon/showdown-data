@@ -16,6 +16,7 @@
       "inherit": true
     },
     "lightningrod": {
+      "isBreakable": true,
       "name": "Lightning Rod",
       "rating": 0,
       "num": 32
@@ -31,6 +32,11 @@
     },
     "pressure": {
       "inherit": true
+    },
+    "raindish": {
+      "inherit": true,
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 3
     },
     "roughskin": {
       "inherit": true

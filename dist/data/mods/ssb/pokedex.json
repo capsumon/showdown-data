@@ -173,12 +173,12 @@
         "Water"
       ],
       "baseStats": {
-        "hp": 60,
-        "atk": 85,
-        "def": 50,
-        "spa": 95,
-        "spd": 85,
-        "spe": 110
+        "hp": 67,
+        "atk": 58,
+        "def": 57,
+        "spa": 81,
+        "spd": 67,
+        "spe": 101
       }
     },
     "gyaradosmega": {
@@ -308,6 +308,17 @@
       "inherit": true,
       "abilities": {
         "0": "Winding Song"
+      }
+    },
+    "snom": {
+      "inherit": true,
+      "baseStats": {
+        "hp": 70,
+        "atk": 65,
+        "def": 60,
+        "spa": 125,
+        "spd": 90,
+        "spe": 65
       }
     },
     "darumaka": {

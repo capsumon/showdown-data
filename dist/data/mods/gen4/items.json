@@ -6,6 +6,11 @@
     "bigroot": {
       "inherit": true
     },
+    "blacksludge": {
+      "inherit": true,
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
+    },
     "brightpowder": {
       "inherit": true,
       "onModifyAccuracyPriority": 5
@@ -31,6 +36,11 @@
     "deepseatooth": {
       "inherit": true
     },
+    "flameorb": {
+      "inherit": true,
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 20
+    },
     "focussash": {
       "inherit": true,
       "condition": {
@@ -49,6 +59,11 @@
     "laxincense": {
       "inherit": true,
       "onModifyAccuracyPriority": 5
+    },
+    "leftovers": {
+      "inherit": true,
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 4
     },
     "lifeorb": {
       "inherit": true,
@@ -90,8 +105,18 @@
     "stick": {
       "inherit": true
     },
+    "stickybarb": {
+      "inherit": true,
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 20
+    },
     "thickclub": {
       "inherit": true
+    },
+    "toxicorb": {
+      "inherit": true,
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 20
     },
     "widelens": {
       "inherit": true,

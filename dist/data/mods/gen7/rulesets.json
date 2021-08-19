@@ -1,5 +1,5 @@
 {
-  "Formats": {
+  "Rulesets": {
     "standard": {
       "inherit": true,
       "ruleset": [
@@ -14,8 +14,7 @@
         "Endless Battle Clause",
         "HP Percentage Mod",
         "Cancel Mod"
-      ],
-      "minSourceGen": 0
+      ]
     },
     "standarddoubles": {
       "inherit": true,
@@ -32,8 +31,7 @@
         "Endless Battle Clause",
         "HP Percentage Mod",
         "Cancel Mod"
-      ],
-      "minSourceGen": 0
+      ]
     },
     "obtainablemoves": {
       "inherit": true,

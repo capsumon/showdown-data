@@ -1,0 +1,46 @@
+{
+  "Abilities": {
+    "damp": {
+      "inherit": true
+    },
+    "flowerveil": {
+      "inherit": true
+    },
+    "innerfocus": {
+      "inherit": true
+    },
+    "mirrorarmor": {
+      "inherit": true
+    },
+    "mummy": {
+      "inherit": true
+    },
+    "neutralizinggas": {
+      "inherit": true
+    },
+    "oblivious": {
+      "inherit": true
+    },
+    "owntempo": {
+      "inherit": true
+    },
+    "powerofalchemy": {
+      "inherit": true
+    },
+    "rattled": {
+      "inherit": true
+    },
+    "receiver": {
+      "inherit": true
+    },
+    "scrappy": {
+      "inherit": true
+    },
+    "trace": {
+      "inherit": true
+    },
+    "wanderingspirit": {
+      "inherit": true
+    }
+  }
+}
