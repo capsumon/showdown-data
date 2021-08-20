@@ -1,0 +1,31 @@
+name: Auto Semver Tag on PR merge
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  auto-semver-tag:
+    name: "Create new Semver Tag"
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == 'true'
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get install -y jq zsh
+          npm install
+          git config --global user.email "${{ secrets.GIT_COMMIT_EMAIL }}"
+          git config --global user.name "${{ secrets.GIT_COMMIT_AUTHOR }}"
+
+      - name: Create semver tag
+        # https://docs.github.com/en/rest/reference/pulls#create-a-pull-request
+        run: |
+          PR_NAME="${{ github.event.pull_request.head.ref }}"
+          echo "PR_NAME=${PR_NAME}"
+          git branch --set-upstream-to "origin/main"
+          make tag
+          git push
+          git push --tags

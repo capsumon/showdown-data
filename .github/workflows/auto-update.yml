@@ -1,0 +1,50 @@
+name: Fridays Scheduled Update
+on:
+  pull_request:
+  schedule:
+    - cron: "0 4 * * 5" # // Every Friday at 4 AM UTC (6 AM CET)
+
+jobs:
+  auto-update-with-pr:
+    name: "Update Data and Create PR"
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get install -y jq zsh
+          npm install
+          git config --global user.email "${{ secrets.GIT_COMMIT_EMAIL }}"
+          git config --global user.name "${{ secrets.GIT_COMMIT_AUTHOR }}"
+
+      - name: Upgrade data sources and regenerate dist files
+        run: |
+          make upgrade
+
+      - name: Create PR if dist files changed
+        # https://docs.github.com/en/rest/reference/pulls#create-a-pull-request
+        run: |
+          if [[ `git status --porcelain ./dist` ]]; then
+            NEW_TAG=$(date +'%Y.%m.%d')
+            NEW_BRANCH="update-${NEW_TAG}-$(date +'%H%M')"
+
+            git checkout -b "${NEW_BRANCH}"
+            git add -A
+            git commit -m "Changes from ${NEW_TAG}"
+            git push --set-upstream origin "${NEW_BRANCH}"
+            sleep 1
+
+            curl --request POST \
+              --url "${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/pulls" \
+              --header "Accept: application/vnd.github.v3+json" \
+              --header 'authorization: token ${{ secrets.GITHUB_TOKEN }}' \
+              --data "{\"head\":\"${NEW_BRANCH}\",\"base\":\"main\",\"title\":\"${NEW_BRANCH}\",\"body\":\"(Automatic Update)\"}"
+
+          else
+            echo "There are no changes. Nothing to commit."
+          fi

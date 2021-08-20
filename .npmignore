@@ -9,3 +9,5 @@ docker-compose.yaml
 Dockerfile
 index.js
 Makefile
+dist/**/*.*
+!dist/**/*.json
