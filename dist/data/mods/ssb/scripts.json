@@ -1,6 +1,7 @@
 {
   "Scripts": {
     "inherit": "gen8",
+    "actions": {},
     "pokemon": {}
   }
 }

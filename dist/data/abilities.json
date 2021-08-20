@@ -52,32 +52,32 @@
       "num": 71
     },
     "aromaveil": {
+      "isBreakable": true,
       "name": "Aroma Veil",
       "rating": 2,
       "num": 165
     },
     "asoneglastrier": {
-      "onFoeTryEatItem": false,
       "isPermanent": true,
       "name": "As One (Glastrier)",
       "rating": 3.5,
       "num": 266
     },
     "asonespectrier": {
-      "onFoeTryEatItem": false,
       "isPermanent": true,
       "name": "As One (Spectrier)",
       "rating": 3.5,
       "num": 267
     },
     "aurabreak": {
+      "isBreakable": true,
       "name": "Aura Break",
       "rating": 1,
       "num": 188
     },
     "baddreams": {
-      "onResidualOrder": 26,
-      "onResidualSubOrder": 1,
+      "onResidualOrder": 28,
+      "onResidualSubOrder": 2,
       "name": "Bad Dreams",
       "rating": 1.5,
       "num": 123
@@ -95,6 +95,7 @@
     },
     "battlearmor": {
       "onCriticalHit": false,
+      "isBreakable": true,
       "name": "Battle Armor",
       "rating": 1,
       "num": 4
@@ -117,6 +118,7 @@
       "num": 201
     },
     "bigpecks": {
+      "isBreakable": true,
       "name": "Big Pecks",
       "rating": 0.5,
       "num": 145
@@ -129,6 +131,7 @@
       "num": 66
     },
     "bulletproof": {
+      "isBreakable": true,
       "name": "Bulletproof",
       "rating": 3,
       "num": 171
@@ -149,6 +152,7 @@
       "num": 34
     },
     "clearbody": {
+      "isBreakable": true,
       "name": "Clear Body",
       "rating": 2,
       "num": 29
@@ -166,7 +170,6 @@
     },
     "comatose": {
       "isPermanent": true,
-      "isUnbreakable": true,
       "name": "Comatose",
       "rating": 4,
       "num": 213
@@ -183,6 +186,7 @@
       "num": 14
     },
     "contrary": {
+      "isBreakable": true,
       "name": "Contrary",
       "rating": 4.5,
       "num": 126
@@ -213,6 +217,7 @@
       "num": 56
     },
     "damp": {
+      "isBreakable": true,
       "name": "Damp",
       "rating": 1,
       "num": 6
@@ -224,7 +229,7 @@
     },
     "darkaura": {
       "onAnyBasePowerPriority": 20,
-      "isUnbreakable": true,
+      "isBreakable": true,
       "name": "Dark Aura",
       "rating": 3,
       "num": 186
@@ -235,6 +240,7 @@
       "num": 235
     },
     "dazzling": {
+      "isBreakable": true,
       "name": "Dazzling",
       "rating": 2.5,
       "num": 219
@@ -263,6 +269,7 @@
     },
     "disguise": {
       "onDamagePriority": 1,
+      "isBreakable": true,
       "isPermanent": true,
       "name": "Disguise",
       "rating": 3.5,
@@ -292,6 +299,7 @@
     },
     "dryskin": {
       "onFoeBasePowerPriority": 17,
+      "isBreakable": true,
       "name": "Dry Skin",
       "rating": 3,
       "num": 87
@@ -318,12 +326,13 @@
     },
     "fairyaura": {
       "onAnyBasePowerPriority": 20,
-      "isUnbreakable": true,
+      "isBreakable": true,
       "name": "Fairy Aura",
       "rating": 3,
       "num": 187
     },
     "filter": {
+      "isBreakable": true,
       "name": "Filter",
       "rating": 3,
       "num": 111
@@ -345,6 +354,7 @@
         "onModifyAtkPriority": 5,
         "onModifySpAPriority": 5
       },
+      "isBreakable": true,
       "name": "Flash Fire",
       "rating": 3.5,
       "num": 18
@@ -352,16 +362,19 @@
     "flowergift": {
       "onAllyModifyAtkPriority": 3,
       "onAllyModifySpDPriority": 4,
+      "isBreakable": true,
       "name": "Flower Gift",
       "rating": 1,
       "num": 122
     },
     "flowerveil": {
+      "isBreakable": true,
       "name": "Flower Veil",
       "rating": 0,
       "num": 166
     },
     "fluffy": {
+      "isBreakable": true,
       "name": "Fluffy",
       "rating": 3.5,
       "num": 218
@@ -378,6 +391,7 @@
     },
     "friendguard": {
       "name": "Friend Guard",
+      "isBreakable": true,
       "rating": 0,
       "num": 132
     },
@@ -387,13 +401,13 @@
       "num": 119
     },
     "fullmetalbody": {
-      "isUnbreakable": true,
       "name": "Full Metal Body",
       "rating": 2,
       "num": 230
     },
     "furcoat": {
       "onModifyDefPriority": 6,
+      "isBreakable": true,
       "name": "Fur Coat",
       "rating": 4,
       "num": 169
@@ -428,6 +442,7 @@
     },
     "grasspelt": {
       "onModifyDefPriority": 6,
+      "isBreakable": true,
       "name": "Grass Pelt",
       "rating": 0.5,
       "num": 179
@@ -456,26 +471,28 @@
     },
     "harvest": {
       "name": "Harvest",
-      "onResidualOrder": 26,
-      "onResidualSubOrder": 1,
+      "onResidualOrder": 28,
+      "onResidualSubOrder": 2,
       "rating": 2.5,
       "num": 139
     },
     "healer": {
       "name": "Healer",
       "onResidualOrder": 5,
-      "onResidualSubOrder": 4,
+      "onResidualSubOrder": 3,
       "rating": 0,
       "num": 131
     },
     "heatproof": {
       "onSourceBasePowerPriority": 18,
+      "isBreakable": true,
       "name": "Heatproof",
       "rating": 2,
       "num": 85
     },
     "heavymetal": {
       "onModifyWeightPriority": 1,
+      "isBreakable": true,
       "name": "Heavy Metal",
       "rating": 0,
       "num": 134
@@ -492,6 +509,7 @@
       "num": 37
     },
     "hungerswitch": {
+      "onResidualOrder": 29,
       "name": "Hunger Switch",
       "rating": 1,
       "num": 258
@@ -505,12 +523,13 @@
     },
     "hydration": {
       "onResidualOrder": 5,
-      "onResidualSubOrder": 4,
+      "onResidualSubOrder": 3,
       "name": "Hydration",
       "rating": 1.5,
       "num": 93
     },
     "hypercutter": {
+      "isBreakable": true,
       "name": "Hyper Cutter",
       "rating": 1.5,
       "num": 52
@@ -522,12 +541,14 @@
     },
     "iceface": {
       "onDamagePriority": 1,
+      "isBreakable": true,
       "isPermanent": true,
       "name": "Ice Face",
       "rating": 3,
       "num": 248
     },
     "icescales": {
+      "isBreakable": true,
       "name": "Ice Scales",
       "rating": 4,
       "num": 246
@@ -538,12 +559,12 @@
       "num": 35
     },
     "illusion": {
-      "isUnbreakable": true,
       "name": "Illusion",
       "rating": 4.5,
       "num": 149
     },
     "immunity": {
+      "isBreakable": true,
       "name": "Immunity",
       "rating": 2,
       "num": 17
@@ -565,11 +586,13 @@
       "num": 215
     },
     "innerfocus": {
+      "isBreakable": true,
       "name": "Inner Focus",
       "rating": 1.5,
       "num": 39
     },
     "insomnia": {
+      "isBreakable": true,
       "name": "Insomnia",
       "rating": 2,
       "num": 15
@@ -602,6 +625,7 @@
       "num": 154
     },
     "keeneye": {
+      "isBreakable": true,
       "name": "Keen Eye",
       "rating": 0.5,
       "num": 51
@@ -612,11 +636,13 @@
       "num": 103
     },
     "leafguard": {
+      "isBreakable": true,
       "name": "Leaf Guard",
       "rating": 0.5,
       "num": 102
     },
     "levitate": {
+      "isBreakable": true,
       "name": "Levitate",
       "rating": 3.5,
       "num": 26
@@ -627,16 +653,19 @@
       "num": 236
     },
     "lightmetal": {
+      "isBreakable": true,
       "name": "Light Metal",
       "rating": 1,
       "num": 135
     },
     "lightningrod": {
+      "isBreakable": true,
       "name": "Lightning Rod",
       "rating": 3,
       "num": 31
     },
     "limber": {
+      "isBreakable": true,
       "name": "Limber",
       "rating": 2,
       "num": 7
@@ -663,6 +692,7 @@
       "condition": {
         "duration": 1
       },
+      "isBreakable": true,
       "rating": 4,
       "num": 156
     },
@@ -677,6 +707,7 @@
       "num": 170
     },
     "magmaarmor": {
+      "isBreakable": true,
       "name": "Magma Armor",
       "rating": 1,
       "num": 40
@@ -688,6 +719,7 @@
     },
     "marvelscale": {
       "onModifyDefPriority": 6,
+      "isBreakable": true,
       "name": "Marvel Scale",
       "rating": 2.5,
       "num": 63
@@ -716,6 +748,7 @@
       "num": 58
     },
     "mirrorarmor": {
+      "isBreakable": true,
       "name": "Mirror Armor",
       "rating": 2,
       "num": 240
@@ -731,13 +764,14 @@
       "num": 104
     },
     "moody": {
-      "onResidualOrder": 26,
-      "onResidualSubOrder": 1,
+      "onResidualOrder": 28,
+      "onResidualSubOrder": 2,
       "name": "Moody",
       "rating": 5,
       "num": 141
     },
     "motordrive": {
+      "isBreakable": true,
       "name": "Motor Drive",
       "rating": 3,
       "num": 78
@@ -748,6 +782,7 @@
       "num": 153
     },
     "multiscale": {
+      "isBreakable": true,
       "name": "Multiscale",
       "rating": 3.5,
       "num": 136
@@ -775,7 +810,7 @@
     },
     "neutralizinggas": {
       "name": "Neutralizing Gas",
-      "rating": 5,
+      "rating": 4,
       "num": 256
     },
     "noguard": {
@@ -792,12 +827,14 @@
       "num": 96
     },
     "oblivious": {
+      "isBreakable": true,
       "name": "Oblivious",
       "rating": 1.5,
       "num": 12
     },
     "overcoat": {
       "onTryHitPriority": 1,
+      "isBreakable": true,
       "name": "Overcoat",
       "rating": 2,
       "num": 142
@@ -810,17 +847,18 @@
       "num": 65
     },
     "owntempo": {
+      "isBreakable": true,
       "name": "Own Tempo",
       "rating": 1.5,
       "num": 20
     },
     "parentalbond": {
-      "onBasePowerPriority": 7,
       "name": "Parental Bond",
       "rating": 4.5,
       "num": 185
     },
     "pastelveil": {
+      "isBreakable": true,
       "name": "Pastel Veil",
       "rating": 2,
       "num": 257
@@ -836,8 +874,8 @@
       "num": 124
     },
     "pickup": {
-      "onResidualOrder": 26,
-      "onResidualSubOrder": 1,
+      "onResidualOrder": 28,
+      "onResidualSubOrder": 2,
       "name": "Pickup",
       "rating": 0.5,
       "num": 53
@@ -872,7 +910,7 @@
       "num": 143
     },
     "powerconstruct": {
-      "onResidualOrder": 27,
+      "onResidualOrder": 29,
       "isPermanent": true,
       "name": "Power Construct",
       "rating": 5,
@@ -905,12 +943,12 @@
       "num": 189
     },
     "prismarmor": {
-      "isUnbreakable": true,
       "name": "Prism Armor",
       "rating": 3,
       "num": 232
     },
     "propellertail": {
+      "onModifyMovePriority": 1,
       "name": "Propeller Tail",
       "rating": 0,
       "num": 239
@@ -927,6 +965,7 @@
     },
     "punkrock": {
       "onBasePowerPriority": 7,
+      "isBreakable": true,
       "name": "Punk Rock",
       "rating": 3.5,
       "num": 244
@@ -938,6 +977,7 @@
       "num": 74
     },
     "queenlymajesty": {
+      "isBreakable": true,
       "name": "Queenly Majesty",
       "rating": 2.5,
       "num": 214
@@ -1044,18 +1084,20 @@
     },
     "sandveil": {
       "onModifyAccuracyPriority": -1,
+      "isBreakable": true,
       "name": "Sand Veil",
       "rating": 1.5,
       "num": 8
     },
     "sapsipper": {
       "onTryHitPriority": 1,
+      "isBreakable": true,
       "name": "Sap Sipper",
       "rating": 3,
       "num": 157
     },
     "schooling": {
-      "onResidualOrder": 27,
+      "onResidualOrder": 29,
       "isPermanent": true,
       "name": "Schooling",
       "rating": 3,
@@ -1079,7 +1121,6 @@
       "num": 32
     },
     "shadowshield": {
-      "isUnbreakable": true,
       "name": "Shadow Shield",
       "rating": 3.5,
       "num": 231
@@ -1091,7 +1132,7 @@
     },
     "shedskin": {
       "onResidualOrder": 5,
-      "onResidualSubOrder": 4,
+      "onResidualSubOrder": 3,
       "name": "Shed Skin",
       "rating": 3,
       "num": 61
@@ -1104,24 +1145,26 @@
     },
     "shellarmor": {
       "onCriticalHit": false,
+      "isBreakable": true,
       "name": "Shell Armor",
       "rating": 1,
       "num": 75
     },
     "shielddust": {
+      "isBreakable": true,
       "name": "Shield Dust",
       "rating": 2,
       "num": 19
     },
     "shieldsdown": {
-      "onResidualOrder": 27,
+      "onResidualOrder": 29,
       "isPermanent": true,
-      "isUnbreakable": true,
       "name": "Shields Down",
       "rating": 3,
       "num": 197
     },
     "simple": {
+      "isBreakable": true,
       "name": "Simple",
       "rating": 4,
       "num": 86
@@ -1134,6 +1177,8 @@
     "slowstart": {
       "condition": {
         "duration": 5,
+        "onResidualOrder": 28,
+        "onResidualSubOrder": 2,
         "onModifyAtkPriority": 5
       },
       "name": "Slow Start",
@@ -1152,6 +1197,7 @@
     },
     "snowcloak": {
       "onModifyAccuracyPriority": -1,
+      "isBreakable": true,
       "name": "Snow Cloak",
       "rating": 1.5,
       "num": 81
@@ -1168,6 +1214,7 @@
       "num": 94
     },
     "solidrock": {
+      "isBreakable": true,
       "name": "Solid Rock",
       "rating": 3,
       "num": 116
@@ -1179,13 +1226,14 @@
       "num": 220
     },
     "soundproof": {
+      "isBreakable": true,
       "name": "Soundproof",
       "rating": 1.5,
       "num": 43
     },
     "speedboost": {
-      "onResidualOrder": 26,
-      "onResidualSubOrder": 1,
+      "onResidualOrder": 28,
+      "onResidualSubOrder": 2,
       "name": "Speed Boost",
       "rating": 4.5,
       "num": 3
@@ -1204,6 +1252,7 @@
       "num": 100
     },
     "stalwart": {
+      "onModifyMovePriority": 1,
       "name": "Stalwart",
       "rating": 0,
       "num": 242
@@ -1255,11 +1304,13 @@
       "num": 1
     },
     "stickyhold": {
+      "isBreakable": true,
       "name": "Sticky Hold",
       "rating": 2,
       "num": 60
     },
     "stormdrain": {
+      "isBreakable": true,
       "name": "Storm Drain",
       "rating": 3,
       "num": 114
@@ -1272,12 +1323,14 @@
     },
     "sturdy": {
       "onDamagePriority": -30,
+      "isBreakable": true,
       "name": "Sturdy",
       "rating": 3,
       "num": 5
     },
     "suctioncups": {
       "onDragOutPriority": 1,
+      "isBreakable": true,
       "name": "Suction Cups",
       "rating": 1,
       "num": 21
@@ -1301,6 +1354,7 @@
     },
     "sweetveil": {
       "name": "Sweet Veil",
+      "isBreakable": true,
       "rating": 2,
       "num": 175
     },
@@ -1321,6 +1375,7 @@
     },
     "tangledfeet": {
       "onModifyAccuracyPriority": -1,
+      "isBreakable": true,
       "name": "Tangled Feet",
       "rating": 1,
       "num": 77
@@ -1337,6 +1392,7 @@
       "num": 101
     },
     "telepathy": {
+      "isBreakable": true,
       "name": "Telepathy",
       "rating": 0,
       "num": 140
@@ -1349,6 +1405,7 @@
     "thickfat": {
       "onSourceModifyAtkPriority": 6,
       "onSourceModifySpAPriority": 5,
+      "isBreakable": true,
       "name": "Thick Fat",
       "rating": 3.5,
       "num": 47
@@ -1408,6 +1465,7 @@
     },
     "unaware": {
       "name": "Unaware",
+      "isBreakable": true,
       "rating": 4,
       "num": 109
     },
@@ -1418,7 +1476,6 @@
       "num": 84
     },
     "unnerve": {
-      "onFoeTryEatItem": false,
       "name": "Unnerve",
       "rating": 1.5,
       "num": 127
@@ -1435,11 +1492,13 @@
       "num": 162
     },
     "vitalspirit": {
+      "isBreakable": true,
       "name": "Vital Spirit",
       "rating": 2,
       "num": 72
     },
     "voltabsorb": {
+      "isBreakable": true,
       "name": "Volt Absorb",
       "rating": 3.5,
       "num": 10
@@ -1450,6 +1509,7 @@
       "num": 254
     },
     "waterabsorb": {
+      "isBreakable": true,
       "name": "Water Absorb",
       "rating": 3.5,
       "num": 11
@@ -1457,6 +1517,7 @@
     "waterbubble": {
       "onSourceModifyAtkPriority": 5,
       "onSourceModifySpAPriority": 5,
+      "isBreakable": true,
       "name": "Water Bubble",
       "rating": 4.5,
       "num": 199
@@ -1467,6 +1528,7 @@
       "num": 195
     },
     "waterveil": {
+      "isBreakable": true,
       "name": "Water Veil",
       "rating": 2,
       "num": 41
@@ -1477,6 +1539,7 @@
       "num": 133
     },
     "whitesmoke": {
+      "isBreakable": true,
       "name": "White Smoke",
       "rating": 2,
       "num": 73
@@ -1487,18 +1550,20 @@
       "num": 193
     },
     "wonderguard": {
+      "isBreakable": true,
       "name": "Wonder Guard",
       "rating": 5,
       "num": 25
     },
     "wonderskin": {
       "onModifyAccuracyPriority": 10,
+      "isBreakable": true,
       "name": "Wonder Skin",
       "rating": 2,
       "num": 147
     },
     "zenmode": {
-      "onResidualOrder": 27,
+      "onResidualOrder": 29,
       "condition": {},
       "isPermanent": true,
       "name": "Zen Mode",
@@ -1507,6 +1572,7 @@
     },
     "mountaineer": {
       "isNonstandard": "CAP",
+      "isBreakable": true,
       "name": "Mountaineer",
       "rating": 3,
       "num": -2
@@ -1518,6 +1584,7 @@
       "condition": {
         "duration": 1
       },
+      "isBreakable": true,
       "rating": 3,
       "num": -3
     },

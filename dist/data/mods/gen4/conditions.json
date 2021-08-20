@@ -1,5 +1,10 @@
 {
   "Conditions": {
+    "brn": {
+      "inherit": true,
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 6
+    },
     "par": {
       "inherit": true
     },
@@ -7,6 +12,19 @@
       "name": "slp",
       "effectType": "Status",
       "onBeforeMovePriority": 10
+    },
+    "psn": {
+      "inherit": true,
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 6
+    },
+    "tox": {
+      "inherit": true,
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 6
+    },
+    "confusion": {
+      "inherit": true
     },
     "frz": {
       "inherit": true
@@ -23,11 +41,33 @@
       "noCopy": false
     },
     "partiallytrapped": {
-      "inherit": true
+      "inherit": true,
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 9
+    },
+    "futuremove": {
+      "inherit": true,
+      "onResidualOrder": 11
     },
     "stall": {
       "inherit": true,
       "counterMax": 8
+    },
+    "raindance": {
+      "inherit": true,
+      "onFieldResidualOrder": 8
+    },
+    "sunnyday": {
+      "inherit": true,
+      "onFieldResidualOrder": 8
+    },
+    "sandstorm": {
+      "inherit": true,
+      "onFieldResidualOrder": 8
+    },
+    "hail": {
+      "inherit": true,
+      "onFieldResidualOrder": 8
     },
     "arceus": {
       "name": "Arceus"

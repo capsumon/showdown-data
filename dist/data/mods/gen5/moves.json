@@ -392,8 +392,8 @@
       "inherit": true,
       "condition": {
         "duration": 5,
-        "onResidualOrder": 21,
-        "onResidualSubOrder": 1
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 2
       }
     },
     "lowsweep": {
@@ -536,7 +536,8 @@
       "inherit": true,
       "condition": {
         "duration": 5,
-        "onResidualOrder": 21
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 1
       }
     },
     "relicsong": {

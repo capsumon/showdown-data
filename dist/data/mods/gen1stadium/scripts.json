@@ -4,6 +4,9 @@
     "gen": 1,
     "pokemon": {
       "inherit": true
+    },
+    "actions": {
+      "inherit": true
     }
   }
 }

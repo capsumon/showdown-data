@@ -79,7 +79,7 @@
         "swordsdance",
         "hyperbeam"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "squirtle": {
       "randomBattleMoves": [
@@ -119,7 +119,7 @@
         "earthquake",
         "rest"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "caterpie": {
       "randomBattleMoves": [
@@ -146,7 +146,7 @@
         "megadrain",
         "psywave"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "weedle": {
       "randomBattleMoves": [
@@ -179,7 +179,7 @@
         "swordsdance",
         "agility"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "pidgey": {
       "randomBattleMoves": [
@@ -229,7 +229,7 @@
         "skyattack",
         "substitute"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "rattata": {
       "randomBattleMoves": [
@@ -247,7 +247,7 @@
         "blizzard"
       ],
       "essentialMove": "superfang",
-      "tier": "UU"
+      "tier": "NU"
     },
     "spearow": {
       "randomBattleMoves": [
@@ -271,7 +271,7 @@
         "hyperbeam",
         "agility"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "ekans": {
       "randomBattleMoves": [
@@ -292,7 +292,7 @@
         "bodyslam",
         "rockslide"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "pikachu": {
       "randomBattleMoves": [
@@ -321,7 +321,7 @@
         "seismictoss",
         "hyperbeam"
       ],
-      "tier": "UU"
+      "tier": "NUBL"
     },
     "sandshrew": {
       "randomBattleMoves": [
@@ -339,7 +339,7 @@
         "rockslide"
       ],
       "essentialMove": "earthquake",
-      "tier": "UU"
+      "tier": "NU"
     },
     "nidoranf": {
       "randomBattleMoves": [
@@ -373,7 +373,7 @@
         "bodyslam"
       ],
       "essentialMove": "earthquake",
-      "tier": "UU"
+      "tier": "NU"
     },
     "nidoranm": {
       "randomBattleMoves": [
@@ -411,7 +411,7 @@
         "thunderbolt",
         "rockslide"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "clefairy": {
       "randomBattleMoves": [
@@ -443,7 +443,7 @@
         "psychic",
         "hyperbeam"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "vulpix": {
       "randomBattleMoves": [
@@ -470,7 +470,7 @@
         "hyperbeam",
         "substitute"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "jigglypuff": {
       "randomBattleMoves": [
@@ -496,7 +496,7 @@
         "sing",
         "hyperbeam"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "zubat": {
       "randomBattleMoves": [
@@ -514,7 +514,7 @@
         "hyperbeam",
         "megadrain"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "oddish": {
       "randomBattleMoves": [
@@ -550,7 +550,7 @@
         "swordsdance"
       ],
       "essentialMove": "megadrain",
-      "tier": "UU"
+      "tier": "NU"
     },
     "paras": {
       "randomBattleMoves": [
@@ -581,7 +581,7 @@
         "slash",
         "hyperbeam"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "venonat": {
       "randomBattleMoves": [
@@ -607,7 +607,7 @@
         "megadrain",
         "doubleedge"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "diglett": {
       "randomBattleMoves": [
@@ -679,7 +679,7 @@
         "rest",
         "hydropump"
       ],
-      "tier": "UU"
+      "tier": "NUBL"
     },
     "mankey": {
       "randomBattleMoves": [
@@ -704,7 +704,7 @@
         "hyperbeam",
         "hyperbeam"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "growlithe": {
       "randomBattleMoves": [
@@ -725,7 +725,7 @@
         "flamethrower",
         "reflect"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "poliwag": {
       "randomBattleMoves": [
@@ -771,7 +771,7 @@
         "amnesia",
         "blizzard"
       ],
-      "tier": "UU"
+      "tier": "NUBL"
     },
     "abra": {
       "randomBattleMoves": [
@@ -853,7 +853,7 @@
         "rockslide",
         "hyperbeam"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "bellsprout": {
       "randomBattleMoves": [
@@ -886,7 +886,7 @@
         "swordsdance",
         "hyperbeam"
       ],
-      "tier": "OU"
+      "tier": "(OU)"
     },
     "tentacool": {
       "randomBattleMoves": [
@@ -940,7 +940,7 @@
         "earthquake",
         "rockslide"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "ponyta": {
       "randomBattleMoves": [
@@ -958,7 +958,7 @@
         "bodyslam",
         "hyperbeam"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "slowpoke": {
       "randomBattleMoves": [
@@ -1019,7 +1019,7 @@
         "hyperbeam",
         "substitute"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "farfetchd": {
       "randomBattleMoves": [
@@ -1028,7 +1028,7 @@
         "bodyslam"
       ],
       "essentialMove": "slash",
-      "tier": "UU"
+      "tier": "NU"
     },
     "doduo": {
       "randomBattleMoves": [
@@ -1072,7 +1072,7 @@
         "mimic",
         "hyperbeam"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "grimer": {
       "randomBattleMoves": [
@@ -1100,7 +1100,7 @@
         "fireblast",
         "hyperbeam"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "shellder": {
       "randomBattleMoves": [
@@ -1176,7 +1176,7 @@
         "rockslide",
         "bodyslam"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "drowzee": {
       "randomBattleMoves": [
@@ -1225,7 +1225,7 @@
         "swordsdance",
         "crabhammer"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "voltorb": {
       "randomBattleMoves": [
@@ -1252,7 +1252,7 @@
         "toxic",
         "hyperbeam"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "exeggcute": {
       "randomBattleMoves": [
@@ -1301,7 +1301,7 @@
         "bodyslam",
         "seismictoss"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "hitmonlee": {
       "randomBattleMoves": [
@@ -1314,7 +1314,7 @@
         "counter",
         "meditate"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "hitmonchan": {
       "randomBattleMoves": [
@@ -1327,7 +1327,7 @@
         "counter",
         "agility"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "lickitung": {
       "randomBattleMoves": [
@@ -1341,7 +1341,7 @@
         "earthquake",
         "blizzard"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "koffing": {
       "randomBattleMoves": [
@@ -1359,7 +1359,7 @@
         "thunderbolt",
         "fireblast"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "rhyhorn": {
       "randomBattleMoves": [
@@ -1452,7 +1452,7 @@
         "hyperbeam",
         "hydropump"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "goldeen": {
       "randomBattleMoves": [
@@ -1474,7 +1474,7 @@
         "agility",
         "agility"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "staryu": {
       "randomBattleMoves": [
@@ -1512,7 +1512,7 @@
         "thunderbolt",
         "seismictoss"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "scyther": {
       "randomBattleMoves": [
@@ -1521,7 +1521,7 @@
         "agility",
         "hyperbeam"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "jynx": {
       "randomBattleMoves": [
@@ -1557,7 +1557,7 @@
         "psychic",
         "hyperbeam"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "pinsir": {
       "randomBattleMoves": [
@@ -1570,7 +1570,7 @@
         "submission",
         "seismictoss"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "tauros": {
       "randomBattleMoves": [
@@ -1619,13 +1619,13 @@
         "thunderbolt",
         "thunderbolt"
       ],
-      "tier": "OU"
+      "tier": "(OU)"
     },
     "ditto": {
       "randomBattleMoves": [
         "transform"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "eevee": {
       "randomBattleMoves": [
@@ -1677,7 +1677,7 @@
         "hyperbeam",
         "quickattack"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "porygon": {
       "randomBattleMoves": [
@@ -1691,7 +1691,7 @@
         "triattack",
         "doubleedge"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "omanyte": {
       "randomBattleMoves": [
@@ -1735,7 +1735,7 @@
         "bodyslam",
         "slash"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "aerodactyl": {
       "randomBattleMoves": [
@@ -1744,7 +1744,7 @@
         "doubleedge",
         "hyperbeam"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "snorlax": {
       "randomBattleMoves": [
@@ -1802,7 +1802,7 @@
         "reflect",
         "skyattack"
       ],
-      "tier": "UU"
+      "tier": "NU"
     },
     "dratini": {
       "randomBattleMoves": [

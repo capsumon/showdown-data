@@ -42,6 +42,9 @@
       "accuracy": 100,
       "ignoreAccuracy": true
     },
+    "brickbreak": {
+      "inherit": true
+    },
     "charge": {
       "inherit": true,
       "boosts": null
@@ -107,7 +110,8 @@
       },
       "volatileStatus": "encore",
       "condition": {
-        "onResidualOrder": 13
+        "onResidualOrder": 10,
+        "onResidualSubOrder": 14
       }
     },
     "extrasensory": {
@@ -283,7 +287,8 @@
       },
       "condition": {
         "duration": 2,
-        "onResidualOrder": 12
+        "onResidualOrder": 10,
+        "onResidualSubOrder": 15
       }
     },
     "teeterdance": {

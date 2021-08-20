@@ -2,10 +2,7 @@
   "Scripts": {
     "inherit": "gen2",
     "gen": 1,
-    "lastDamage": 0,
-    "side": {
-      "lastMove": null
-    },
-    "pokemon": {}
+    "pokemon": {},
+    "actions": {}
   }
 }

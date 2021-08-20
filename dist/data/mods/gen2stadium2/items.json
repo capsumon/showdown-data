@@ -1,0 +1,10 @@
+{
+  "Items": {
+    "dragonfang": {
+      "inherit": true
+    },
+    "dragonscale": {
+      "inherit": true
+    }
+  }
+}

@@ -316,14 +316,12 @@
     },
     "bellossom": {
       "randomBattleMoves": [
-        "hiddenpowerfire",
         "hiddenpowergrass",
+        "leechseed",
         "moonlight",
         "sleeppowder",
         "sludgebomb",
-        "solarbeam",
-        "stunspore",
-        "sunnyday"
+        "stunspore"
       ],
       "tier": "NU"
     },
@@ -408,7 +406,6 @@
         "crosschop",
         "earthquake",
         "hiddenpowerghost",
-        "reversal",
         "rockslide",
         "substitute"
       ],
@@ -547,13 +544,10 @@
     },
     "rapidash": {
       "randomBattleMoves": [
-        "batonpass",
         "fireblast",
-        "flamethrower",
         "hiddenpowergrass",
-        "solarbeam",
+        "hiddenpowerrock",
         "substitute",
-        "sunnyday",
         "toxic"
       ],
       "tier": "UU"
@@ -728,8 +722,6 @@
     "kingler": {
       "randomBattleMoves": [
         "doubleedge",
-        "endure",
-        "flail",
         "hiddenpowerghost",
         "hiddenpowerground",
         "surf",
@@ -792,7 +784,6 @@
         "hiddenpowerghost",
         "highjumpkick",
         "machpunch",
-        "reversal",
         "rockslide",
         "substitute"
       ],
@@ -814,8 +805,6 @@
       "randomBattleMoves": [
         "bulkup",
         "earthquake",
-        "endeavor",
-        "endure",
         "hiddenpowerghost",
         "highjumpkick",
         "machpunch",
@@ -884,14 +873,11 @@
     },
     "tangela": {
       "randomBattleMoves": [
-        "hiddenpowerfire",
         "hiddenpowergrass",
         "leechseed",
         "morningsun",
         "sleeppowder",
-        "solarbeam",
-        "stunspore",
-        "sunnyday"
+        "stunspore"
       ],
       "tier": "NU"
     },
@@ -1072,10 +1058,10 @@
     "lapras": {
       "randomBattleMoves": [
         "healbell",
-        "hydropump",
         "icebeam",
         "rest",
         "sleeptalk",
+        "surf",
         "thunderbolt",
         "toxic"
       ],
@@ -1139,7 +1125,6 @@
         "batonpass",
         "hiddenpowerdark",
         "meanlook",
-        "moonlight",
         "protect",
         "toxic",
         "wish"
@@ -1181,8 +1166,6 @@
       "randomBattleMoves": [
         "brickbreak",
         "doubleedge",
-        "endure",
-        "flail",
         "hiddenpowerground",
         "rockslide",
         "surf",
@@ -1304,10 +1287,9 @@
     },
     "meganium": {
       "randomBattleMoves": [
-        "counter",
+        "bodyslam",
         "hiddenpowergrass",
         "leechseed",
-        "lightscreen",
         "synthesis",
         "toxic"
       ],
@@ -1740,7 +1722,6 @@
     "magcargo": {
       "randomBattleMoves": [
         "fireblast",
-        "flamethrower",
         "hiddenpowergrass",
         "rest",
         "sleeptalk",
@@ -1913,7 +1894,6 @@
     "suicune": {
       "randomBattleMoves": [
         "calmmind",
-        "hydropump",
         "icebeam",
         "rest",
         "sleeptalk",
@@ -2124,7 +2104,6 @@
         "brickbreak",
         "explosion",
         "hiddenpowerfire",
-        "quickattack",
         "shadowball",
         "solarbeam",
         "sunnyday",
@@ -2201,6 +2180,7 @@
         "hiddenpowerrock",
         "leechseed",
         "machpunch",
+        "skyuppercut",
         "spore",
         "substitute",
         "swordsdance"
@@ -2368,7 +2348,6 @@
         "bulkup",
         "fakeout",
         "recover",
-        "reversal",
         "rockslide",
         "shadowball",
         "substitute"
@@ -2480,7 +2459,6 @@
     "wailord": {
       "randomBattleMoves": [
         "hiddenpowergrass",
-        "hydropump",
         "icebeam",
         "rest",
         "selfdestruct",
@@ -2507,7 +2485,6 @@
     },
     "torkoal": {
       "randomBattleMoves": [
-        "amnesia",
         "explosion",
         "fireblast",
         "flamethrower",
@@ -2786,7 +2763,6 @@
     },
     "tropius": {
       "randomBattleMoves": [
-        "earthquake",
         "hiddenpowerfire",
         "solarbeam",
         "sunnyday",
@@ -2956,7 +2932,6 @@
     },
     "registeel": {
       "randomBattleMoves": [
-        "counter",
         "protect",
         "rest",
         "seismictoss",

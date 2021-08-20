@@ -7,6 +7,11 @@
       "inherit": true,
       "rating": 1.5
     },
+    "baddreams": {
+      "inherit": true,
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 10
+    },
     "blaze": {
       "onBasePowerPriority": 2,
       "name": "Blaze",
@@ -47,6 +52,11 @@
     "hustle": {
       "inherit": true,
       "onSourceModifyAccuracyPriority": 7
+    },
+    "hydration": {
+      "name": "Hydration",
+      "rating": 1.5,
+      "num": 93
     },
     "insomnia": {
       "inherit": true,
@@ -112,7 +122,13 @@
     "serenegrace": {
       "inherit": true
     },
+    "shedskin": {
+      "inherit": true,
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 3
+    },
     "simple": {
+      "isBreakable": true,
       "name": "Simple",
       "rating": 4,
       "num": 86
@@ -120,6 +136,11 @@
     "snowcloak": {
       "inherit": true,
       "onModifyAccuracyPriority": 8
+    },
+    "speedboost": {
+      "inherit": true,
+      "onResidualOrder": 10,
+      "onResidualSubOrder": 3
     },
     "static": {
       "inherit": true
@@ -155,6 +176,7 @@
     },
     "thickfat": {
       "onSourceBasePowerPriority": 1,
+      "isBreakable": true,
       "name": "Thick Fat",
       "rating": 3.5,
       "num": 47

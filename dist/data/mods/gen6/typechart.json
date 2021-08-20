@@ -1,6 +1,6 @@
 {
   "TypeChart": {
-    "Dark": {
+    "dark": {
       "inherit": true,
       "damageTaken": {
         "Bug": 1,

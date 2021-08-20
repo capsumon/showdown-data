@@ -114,8 +114,10 @@
     "heatran": {
       "inherit": true,
       "abilities": {
-        "0": "Flash Fire"
-      }
+        "0": "Flash Fire",
+        "H": "Flame Body"
+      },
+      "unreleasedHidden": true
     },
     "aegislash": {
       "inherit": true,

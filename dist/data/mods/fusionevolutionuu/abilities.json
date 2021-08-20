@@ -1,0 +1,193 @@
+{
+  "Abilities": {
+    "porous": {
+      "name": "Porous",
+      "shortDesc": "Absorbs self-KO moves and Water-type moves, and restores 1/4 max HP."
+    },
+    "despicable": {
+      "name": "Despicable",
+      "shortDesc": "This Pokemon's attacks are critical hits if the target is burned or poisoned."
+    },
+    "kingsguard": {
+      "name": "King's Guard",
+      "shortDesc": "Protected from enemy priority moves and Attack reduction."
+    },
+    "growthveil": {
+      "name": "Growth Veil",
+      "shortDesc": "Restores 1/3 max HP on switch-out; ally Grass-types safe from enemy stat drops & status.",
+      "desc": "Restores 1/3 max HP on switch-out; ally Grass-types can't have stats lowered or status inflicted."
+    },
+    "surgeoneye": {
+      "name": "Surgeon Eye",
+      "shortDesc": "Restores 1/3 max HP on switch-out. Attack power 1.3x if it moves last in a turn.",
+      "onBasePowerPriority": 21
+    },
+    "roughresult": {
+      "name": "Rough Result",
+      "shortDesc": "Foes making contact lose 1/8 max HP; if KOed by contact, attacker loses 1/4 max HP.",
+      "desc": "Pokemon making contact lose 1/8 max HP; if KOed by a contact move, attacker loses 1/4 max HP.",
+      "onDamagingHitOrder": 1
+    },
+    "eyeforaneye": {
+      "name": "Eye for an Eye",
+      "shortDesc": "This Pokemon blocks Dark-type moves and bounces them back to the user.",
+      "onTryHitPriority": 1,
+      "condition": {
+        "duration": 1
+      }
+    },
+    "naturalheal": {
+      "name": "Natural Heal",
+      "shortDesc": "Restores 1/3 max HP and cures non-volatile status on switch-out."
+    },
+    "kingofpowerpoints": {
+      "name": "King of Power Points",
+      "shortDesc": "Moves targeting it: -1 extra PP. Restores 1/3 max PP of its moves on switch-out.",
+      "desc": "Moves targeting this Pokemon lose 1 additional PP. Restores 1/3 max PP of its moves on switch-out, rounded down."
+    },
+    "porousfat": {
+      "name": "Porous Fat",
+      "shortDesc": "Fire/Ice/Water moves against this Pokemon deal damage with a halved attacking stat.",
+      "onSourceModifyAtkPriority": 6,
+      "onSourceModifySpAPriority": 5
+    },
+    "nullsystem": {
+      "name": "Null System",
+      "shortDesc": "This Pokemon can be any type (selected in teambuilder)."
+    },
+    "inthicktrator": {
+      "name": "Inthicktrator",
+      "shortDesc": "Ignores Screens/Substitutes. Fire/Ice moves: 1/2 power against this Pokemon.",
+      "onSourceModifyAtkPriority": 6,
+      "onSourceModifySpAPriority": 5
+    },
+    "magicsurge": {
+      "name": "Magic Surge",
+      "shortDesc": "Summons Magic Room for 5 turns when switching in."
+    },
+    "multiantlers": {
+      "name": "Multi Antlers",
+      "shortDesc": "User takes half damage when switching in."
+    },
+    "concussion": {
+      "name": "Concussion",
+      "shortDesc": "Halves the effects of stat changes when taking or dealing damage.",
+      "rating": 4,
+      "num": 109
+    },
+    "notfunny": {
+      "name": "Not Funny",
+      "shortDesc": "No Guard + Prankster.",
+      "onAnyInvulnerabilityPriority": 1
+    },
+    "fowlbehavior": {
+      "name": "Fowl Behavior",
+      "shortDesc": "This Pokemon's Sp. Atk is 1.5x, but it can only select the first move it executes.",
+      "onModifySpAPriority": 5
+    },
+    "pillage": {
+      "name": "Pillage",
+      "shortDesc": "On switch-in, swaps ability with the opponent."
+    },
+    "magneticwaves": {
+      "name": "Magnetic Waves",
+      "shortDesc": "Normal moves: Electric type, 1.2x power. Immune to Ground moves.",
+      "onModifyTypePriority": -1,
+      "onBasePowerPriority": 23
+    },
+    "doggysmaw": {
+      "name": "Doggy's Maw",
+      "shortDesc": "This Pokemon's Normal, Fighting and Dragon moves ignore type-based immunities.",
+      "onModifyMovePriority": -5
+    },
+    "sturdymold": {
+      "name": "Sturdy Mold",
+      "shortDesc": "One-hit KOs leave it with 1 HP. Ignores attacker's ability when taking damage.",
+      "onDamagePriority": -100
+    },
+    "therapeutic": {
+      "name": "Therapeutic",
+      "shortDesc": "Heals 1/8 max HP each turn when statused. Ignores non-Sleep effects of status.",
+      "onResidualSubOrder": 1
+    },
+    "solarpanel": {
+      "name": "Solar Panel",
+      "shortDesc": "If hit by Grass, Electric or Fire: +1 SpA. Grass/Electric/Fire immunity."
+    },
+    "toughclaws": {
+      "onBasePowerPriority": 21,
+      "name": "Tough Claws",
+      "rating": 3.5,
+      "num": 181
+    },
+    "hustle": {
+      "onModifyAtkPriority": 5,
+      "onSourceModifyAccuracyPriority": 7,
+      "name": "Hustle",
+      "rating": 3.5,
+      "num": 55
+    },
+    "scrappy": {
+      "onModifyMovePriority": -5,
+      "name": "Scrappy",
+      "rating": 3,
+      "num": 113
+    },
+    "sandforce": {
+      "onBasePowerPriority": 21,
+      "name": "Sand Force",
+      "rating": 2,
+      "num": 159
+    },
+    "noguard": {
+      "onAnyInvulnerabilityPriority": 1,
+      "name": "No Guard",
+      "rating": 4,
+      "num": 99
+    },
+    "bigpressure": {
+      "name": "Big Pressure",
+      "shortDesc": "Moves targeting this Pokemon lose 1 additional PP; Foes cannot lower its Defense."
+    },
+    "friendshield": {
+      "name": "Friend Shield",
+      "shortDesc": "Gets +1 Defense on switch-in. Allies recieve 3/4 damage from foes' attacks."
+    },
+    "debilitate": {
+      "name": "Debilitate",
+      "shortDesc": "On switch-in, this Pokemon lowers the Special Attack of adjacent opponents by 1 stage."
+    },
+    "leafyarmor": {
+      "name": "Leafy Armor",
+      "shortDesc": "If a mental status is inflicted on this Pokemon: Cure status, -1 Defense, +2 Speed."
+    },
+    "surroundsound": {
+      "name": "Surround Sound",
+      "shortDesc": "This Pokemon recieves 1/2 damage from multitarget moves. Its own have 1.3x power.",
+      "onBasePowerPriority": 7
+    },
+    "spikyhold": {
+      "name": "Spiky Hold",
+      "shortDesc": "Cannot lose held item due to others' attacks; others making contact lose 1/8 max HP.",
+      "onDamagingHitOrder": 1
+    },
+    "sinkorswim": {
+      "name": "Sink or Swim",
+      "shortDesc": "On switch-in, lowers adjacent opponents' Speed by 1 stage."
+    },
+    "downpour": {
+      "name": "Downpour",
+      "shortDesc": "If targeted by a foe's move: move loses 1 extra PP, this Pokemon restores 1/16 max HP.",
+      "rating": 2.5,
+      "num": 46
+    },
+    "overclock": {
+      "name": "Overclock",
+      "shortDesc": "If stats are lowered by foe or if hit by Electric move: Atk +2."
+    },
+    "magicmissile": {
+      "name": "Magic Missile",
+      "shortDesc": "If hit by a contact move while holding an item: lose item, apply item Fling effects, attacker loses 1/4 max HP. If hitting a foe with a contact move while not holding an item: steals the foe's item."
+    }
+  }
+}
