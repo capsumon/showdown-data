@@ -18,7 +18,7 @@
     "frz": {
       "name": "frz",
       "effectType": "Status",
-      "onBeforeMovePriority": 10
+      "onBeforeMovePriority": 12
     },
     "psn": {
       "name": "psn",
@@ -51,7 +51,8 @@
       "name": "partialtrappinglock"
     },
     "mustrecharge": {
-      "inherit": true
+      "inherit": true,
+      "duration": 0
     },
     "lockedmove": {
       "inherit": true

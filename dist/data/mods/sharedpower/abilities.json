@@ -1,0 +1,34 @@
+{
+  "Abilities": {
+    "damp": {
+      "inherit": true
+    },
+    "flowerveil": {
+      "inherit": true
+    },
+    "innerfocus": {
+      "inherit": true
+    },
+    "mirrorarmor": {
+      "inherit": true
+    },
+    "neutralizinggas": {
+      "inherit": true
+    },
+    "oblivious": {
+      "inherit": true
+    },
+    "owntempo": {
+      "inherit": true
+    },
+    "rattled": {
+      "inherit": true
+    },
+    "scrappy": {
+      "inherit": true
+    },
+    "trace": {
+      "inherit": true
+    }
+  }
+}

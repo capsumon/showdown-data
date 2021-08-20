@@ -743,8 +743,8 @@
       "sideCondition": "auroraveil",
       "condition": {
         "duration": 5,
-        "onResidualOrder": 21,
-        "onResidualSubOrder": 1
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 10
       },
       "secondary": null,
       "target": "allySide",
@@ -2844,7 +2844,7 @@
       },
       "volatileStatus": "curse",
       "condition": {
-        "onResidualOrder": 10
+        "onResidualOrder": 12
       },
       "secondary": null,
       "target": "randomNormal",
@@ -3175,7 +3175,7 @@
       "condition": {
         "duration": 5,
         "noCopy": true,
-        "onResidualOrder": 14,
+        "onResidualOrder": 17,
         "onBeforeMovePriority": 7
       },
       "secondary": null,
@@ -4020,8 +4020,8 @@
       "condition": {
         "duration": 5,
         "onBasePowerPriority": 6,
-        "onResidualOrder": 21,
-        "onResidualSubOrder": 2
+        "onFieldResidualOrder": 27,
+        "onFieldResidualSubOrder": 7
       },
       "secondary": null,
       "target": "all",
@@ -4124,7 +4124,7 @@
       "volatileStatus": "embargo",
       "condition": {
         "duration": 5,
-        "onResidualOrder": 18
+        "onResidualOrder": 21
       },
       "secondary": null,
       "target": "normal",
@@ -4174,7 +4174,7 @@
       "condition": {
         "duration": 3,
         "noCopy": true,
-        "onResidualOrder": 13
+        "onResidualOrder": 16
       },
       "secondary": null,
       "target": "normal",
@@ -4790,7 +4790,9 @@
       "condition": {
         "duration": 4,
         "onResidualOrder": 5,
-        "onResidualSubOrder": 1
+        "onResidualSubOrder": 1,
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 8
       },
       "secondary": null,
       "target": "normal",
@@ -6023,7 +6025,9 @@
       "condition": {
         "duration": 4,
         "onResidualOrder": 5,
-        "onResidualSubOrder": 1.1
+        "onResidualSubOrder": 1,
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 11
       },
       "secondary": null,
       "target": "adjacentFoe",
@@ -6265,7 +6269,6 @@
       "priority": 0,
       "flags": {},
       "isMax": "Urshifu",
-      "breaksProtect": true,
       "secondary": null,
       "target": "adjacentFoe",
       "type": "Dark",
@@ -6282,7 +6285,6 @@
       "priority": 0,
       "flags": {},
       "isMax": "Urshifu-Rapid-Strike",
-      "breaksProtect": true,
       "secondary": null,
       "target": "adjacentFoe",
       "type": "Water",
@@ -6492,7 +6494,9 @@
       "condition": {
         "duration": 4,
         "onResidualOrder": 5,
-        "onResidualSubOrder": 1.1
+        "onResidualSubOrder": 1,
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 11
       },
       "secondary": null,
       "target": "adjacentFoe",
@@ -6514,7 +6518,9 @@
       "condition": {
         "duration": 4,
         "onResidualOrder": 5,
-        "onResidualSubOrder": 1.1
+        "onResidualSubOrder": 1,
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 11
       },
       "secondary": null,
       "target": "adjacentFoe",
@@ -6553,7 +6559,9 @@
       "condition": {
         "duration": 4,
         "onResidualOrder": 5,
-        "onResidualSubOrder": 1.1
+        "onResidualSubOrder": 1,
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 11
       },
       "secondary": null,
       "target": "adjacentFoe",
@@ -6616,7 +6624,9 @@
         "nonsky": 1
       },
       "condition": {
-        "duration": 4
+        "duration": 4,
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 9
       },
       "secondary": null,
       "target": "normal",
@@ -6684,8 +6694,9 @@
         "duration": 5,
         "onBasePowerPriority": 6,
         "onResidualOrder": 5,
-        "onResidualSubOrder": 3,
-        "onTerrainPriority": 1
+        "onResidualSubOrder": 2,
+        "onFieldResidualOrder": 27,
+        "onFieldResidualSubOrder": 7
       },
       "secondary": null,
       "target": "all",
@@ -6733,7 +6744,8 @@
       "condition": {
         "duration": 5,
         "onBeforeMovePriority": 6,
-        "onResidualOrder": 22
+        "onFieldResidualOrder": 27,
+        "onFieldResidualSubOrder": 2
       },
       "secondary": null,
       "target": "all",
@@ -7185,7 +7197,7 @@
       "condition": {
         "duration": 5,
         "onBeforeMovePriority": 6,
-        "onResidualOrder": 17
+        "onResidualOrder": 20
       },
       "secondary": null,
       "target": "allAdjacentFoes",
@@ -9128,8 +9140,8 @@
       "sideCondition": "lightscreen",
       "condition": {
         "duration": 5,
-        "onResidualOrder": 21,
-        "onResidualSubOrder": 1
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 2
       },
       "secondary": null,
       "target": "allySide",
@@ -9292,8 +9304,8 @@
       "condition": {
         "duration": 5,
         "onCriticalHit": false,
-        "onResidualOrder": 21,
-        "onResidualSubOrder": 5
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 6
       },
       "secondary": null,
       "target": "allySide",
@@ -9464,7 +9476,8 @@
       "pseudoWeather": "magicroom",
       "condition": {
         "duration": 5,
-        "onResidualOrder": 25
+        "onFieldResidualOrder": 27,
+        "onFieldResidualSubOrder": 6
       },
       "secondary": null,
       "target": "all",
@@ -9551,7 +9564,7 @@
       "volatileStatus": "magnetrise",
       "condition": {
         "duration": 5,
-        "onResidualOrder": 15
+        "onResidualOrder": 18
       },
       "secondary": null,
       "target": "self",
@@ -10596,8 +10609,8 @@
       "sideCondition": "mist",
       "condition": {
         "duration": 5,
-        "onResidualOrder": 21,
-        "onResidualSubOrder": 3
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 4
       },
       "secondary": null,
       "target": "allySide",
@@ -10662,8 +10675,8 @@
       "condition": {
         "duration": 5,
         "onBasePowerPriority": 6,
-        "onResidualOrder": 21,
-        "onResidualSubOrder": 2
+        "onFieldResidualOrder": 27,
+        "onFieldResidualSubOrder": 7
       },
       "secondary": null,
       "target": "all",
@@ -10839,7 +10852,8 @@
       "condition": {
         "duration": 5,
         "onBasePowerPriority": 1,
-        "onResidualOrder": 21
+        "onFieldResidualOrder": 27,
+        "onFieldResidualSubOrder": 4
       },
       "secondary": null,
       "target": "all",
@@ -11073,7 +11087,7 @@
       "volatileStatus": "nightmare",
       "condition": {
         "noCopy": true,
-        "onResidualOrder": 9
+        "onResidualOrder": 11
       },
       "secondary": null,
       "target": "normal",
@@ -11291,7 +11305,7 @@
       },
       "volatileStatus": "octolock",
       "condition": {
-        "onResidualOrder": 11
+        "onResidualOrder": 14
       },
       "secondary": null,
       "target": "normal",
@@ -11592,7 +11606,7 @@
       },
       "condition": {
         "duration": 4,
-        "onResidualOrder": 20
+        "onResidualOrder": 24
       },
       "secondary": null,
       "target": "all",
@@ -12380,8 +12394,8 @@
         "duration": 5,
         "onTryHitPriority": 4,
         "onBasePowerPriority": 6,
-        "onResidualOrder": 21,
-        "onResidualSubOrder": 2
+        "onFieldResidualOrder": 27,
+        "onFieldResidualSubOrder": 7
       },
       "secondary": null,
       "target": "all",
@@ -12929,7 +12943,8 @@
       "sideCondition": "reflect",
       "condition": {
         "duration": 5,
-        "onResidualOrder": 21
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 1
       },
       "secondary": null,
       "target": "allySide",
@@ -13457,7 +13472,7 @@
       },
       "condition": {
         "duration": 1,
-        "onResidualOrder": 20,
+        "onResidualOrder": 25,
         "onTypePriority": -1
       },
       "secondary": null,
@@ -13565,8 +13580,8 @@
       "sideCondition": "safeguard",
       "condition": {
         "duration": 5,
-        "onResidualOrder": 21,
-        "onResidualSubOrder": 2
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 3
       },
       "secondary": null,
       "target": "allySide",
@@ -16553,8 +16568,8 @@
       "sideCondition": "tailwind",
       "condition": {
         "duration": 4,
-        "onResidualOrder": 21,
-        "onResidualSubOrder": 4
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 5
       },
       "secondary": null,
       "target": "allySide",
@@ -16627,7 +16642,7 @@
       "volatileStatus": "taunt",
       "condition": {
         "duration": 3,
-        "onResidualOrder": 12,
+        "onResidualOrder": 15,
         "onBeforeMovePriority": 5
       },
       "secondary": null,
@@ -16758,7 +16773,7 @@
       "condition": {
         "duration": 3,
         "onAccuracyPriority": -1,
-        "onResidualOrder": 16
+        "onResidualOrder": 19
       },
       "secondary": null,
       "target": "normal",
@@ -17352,7 +17367,8 @@
       "pseudoWeather": "trickroom",
       "condition": {
         "duration": 5,
-        "onResidualOrder": 23
+        "onFieldResidualOrder": 27,
+        "onFieldResidualSubOrder": 1
       },
       "secondary": null,
       "target": "all",
@@ -17563,6 +17579,8 @@
       },
       "condition": {
         "duration": 3,
+        "onResidualOrder": 28,
+        "onResidualSubOrder": 1,
         "onLockMove": "uproar"
       },
       "secondary": null,
@@ -17841,7 +17859,9 @@
         "nonsky": 1
       },
       "condition": {
-        "duration": 4
+        "duration": 4,
+        "onSideResidualOrder": 26,
+        "onSideResidualSubOrder": 7
       },
       "secondary": null,
       "target": "normal",
@@ -17907,7 +17927,8 @@
       "condition": {
         "duration": 5,
         "onBasePowerPriority": 1,
-        "onResidualOrder": 21
+        "onFieldResidualOrder": 27,
+        "onFieldResidualSubOrder": 3
       },
       "secondary": null,
       "target": "all",
@@ -18178,7 +18199,8 @@
       "pseudoWeather": "wonderroom",
       "condition": {
         "duration": 5,
-        "onResidualOrder": 24
+        "onFieldResidualOrder": 27,
+        "onFieldResidualSubOrder": 5
       },
       "secondary": null,
       "target": "all",
@@ -18340,7 +18362,7 @@
       "condition": {
         "noCopy": true,
         "duration": 2,
-        "onResidualOrder": 19
+        "onResidualOrder": 23
       },
       "secondary": null,
       "target": "normal",

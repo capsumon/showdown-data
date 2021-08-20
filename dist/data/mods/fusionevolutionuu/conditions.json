@@ -1,0 +1,29 @@
+{
+  "Conditions": {
+    "brn": {
+      "name": "brn",
+      "effectType": "Status",
+      "onResidualOrder": 9
+    },
+    "par": {
+      "name": "par",
+      "effectType": "Status",
+      "onBeforeMovePriority": 1
+    },
+    "frz": {
+      "name": "frz",
+      "effectType": "Status",
+      "onBeforeMovePriority": 10
+    },
+    "psn": {
+      "name": "psn",
+      "effectType": "Status",
+      "onResidualOrder": 9
+    },
+    "tox": {
+      "name": "tox",
+      "effectType": "Status",
+      "onResidualOrder": 9
+    }
+  }
+}

@@ -11,7 +11,11 @@
     },
     "aquaring": {
       "inherit": true,
-      "flags": {}
+      "flags": {},
+      "condition": {
+        "onResidualOrder": 10,
+        "onResidualSubOrder": 2
+      }
     },
     "assist": {
       "inherit": true
@@ -92,6 +96,10 @@
     "curse": {
       "inherit": true,
       "flags": {},
+      "condition": {
+        "onResidualOrder": 10,
+        "onResidualSubOrder": 8
+      },
       "type": "???"
     },
     "defog": {
@@ -121,6 +129,8 @@
       "volatileStatus": "disable",
       "condition": {
         "noCopy": true,
+        "onResidualOrder": 10,
+        "onResidualSubOrder": 13,
         "onBeforeMovePriority": 7
       }
     },
@@ -149,6 +159,11 @@
       "flags": {
         "protect": 1,
         "mirror": 1
+      },
+      "condition": {
+        "duration": 5,
+        "onResidualOrder": 10,
+        "onResidualSubOrder": 18
       }
     },
     "encore": {
@@ -160,7 +175,8 @@
       },
       "volatileStatus": "encore",
       "condition": {
-        "onResidualOrder": 13
+        "onResidualOrder": 10,
+        "onResidualSubOrder": 14
       }
     },
     "endeavor": {
@@ -225,6 +241,14 @@
       "inherit": true,
       "accuracy": 75
     },
+    "gravity": {
+      "inherit": true,
+      "condition": {
+        "duration": 5,
+        "onBeforeMovePriority": 6,
+        "onFieldResidualOrder": 9
+      }
+    },
     "growth": {
       "inherit": true,
       "boosts": {
@@ -243,7 +267,8 @@
       "condition": {
         "duration": 5,
         "onBeforeMovePriority": 6,
-        "onResidualOrder": 17
+        "onResidualOrder": 10,
+        "onResidualSubOrder": 17
       }
     },
     "healingwish": {
@@ -271,6 +296,13 @@
         "authentic": 1
       }
     },
+    "ingrain": {
+      "inherit": true,
+      "condition": {
+        "onResidualOrder": 10,
+        "onResidualSubOrder": 1
+      }
+    },
     "jumpkick": {
       "inherit": true,
       "basePower": 85,
@@ -283,11 +315,18 @@
       "inherit": true,
       "basePower": 130
     },
+    "leechseed": {
+      "inherit": true,
+      "condition": {
+        "onResidualOrder": 10,
+        "onResidualSubOrder": 5
+      }
+    },
     "lightscreen": {
       "inherit": true,
       "condition": {
         "duration": 5,
-        "onResidualOrder": 21
+        "onSideResidualOrder": 2
       }
     },
     "lockon": {
@@ -299,7 +338,12 @@
     },
     "luckychant": {
       "inherit": true,
-      "flags": {}
+      "flags": {},
+      "condition": {
+        "duration": 5,
+        "onCriticalHit": false,
+        "onSideResidualOrder": 6
+      }
     },
     "lunardance": {
       "inherit": true,
@@ -330,8 +374,8 @@
       "volatileStatus": "magnetrise",
       "condition": {
         "duration": 5,
-        "onResidualOrder": 6,
-        "onResidualSubOrder": 9
+        "onResidualOrder": 10,
+        "onResidualSubOrder": 16
       }
     },
     "mefirst": {
@@ -391,6 +435,13 @@
       "inherit": true,
       "target": "self"
     },
+    "mist": {
+      "inherit": true,
+      "condition": {
+        "duration": 5,
+        "onSideResidualOrder": 3
+      }
+    },
     "moonlight": {
       "inherit": true
     },
@@ -407,6 +458,14 @@
     "naturepower": {
       "inherit": true
     },
+    "nightmare": {
+      "inherit": true,
+      "condition": {
+        "noCopy": true,
+        "onResidualOrder": 10,
+        "onResidualSubOrder": 7
+      }
+    },
     "odorsleuth": {
       "inherit": true,
       "flags": {
@@ -421,6 +480,13 @@
     },
     "payback": {
       "inherit": true
+    },
+    "perishsong": {
+      "inherit": true,
+      "condition": {
+        "duration": 4,
+        "onResidualOrder": 12
+      }
     },
     "petaldance": {
       "inherit": true,
@@ -463,7 +529,7 @@
       "inherit": true,
       "condition": {
         "duration": 5,
-        "onResidualOrder": 21
+        "onSideResidualOrder": 1
       }
     },
     "reversal": {
@@ -484,6 +550,13 @@
     },
     "roleplay": {
       "inherit": true
+    },
+    "safeguard": {
+      "inherit": true,
+      "condition": {
+        "duration": 5,
+        "onSideResidualOrder": 4
+      }
     },
     "sandtomb": {
       "inherit": true,
@@ -531,6 +604,9 @@
     "suckerpunch": {
       "inherit": true
     },
+    "switcheroo": {
+      "inherit": true
+    },
     "synthesis": {
       "inherit": true
     },
@@ -549,8 +625,7 @@
       "inherit": true,
       "condition": {
         "duration": 3,
-        "onResidualOrder": 21,
-        "onResidualSubOrder": 4
+        "onSideResidualOrder": 5
       }
     },
     "taunt": {
@@ -561,7 +636,8 @@
         "authentic": 1
       },
       "condition": {
-        "onResidualOrder": 12,
+        "onResidualOrder": 10,
+        "onResidualSubOrder": 15,
         "onBeforeMovePriority": 5
       }
     },
@@ -593,9 +669,25 @@
         "authentic": 1
       }
     },
+    "trick": {
+      "inherit": true
+    },
+    "trickroom": {
+      "inherit": true,
+      "condition": {
+        "duration": 5,
+        "onFieldResidualOrder": 13
+      }
+    },
     "uproar": {
       "inherit": true,
-      "basePower": 50
+      "basePower": 50,
+      "condition": {
+        "duration": 3,
+        "onResidualOrder": 10,
+        "onResidualSubOrder": 11,
+        "onLockMove": "uproar"
+      }
     },
     "volttackle": {
       "inherit": true,
@@ -632,7 +724,7 @@
       "slotCondition": "Wish",
       "condition": {
         "duration": 2,
-        "onResidualOrder": 0.5
+        "onResidualOrder": 7
       }
     },
     "woodhammer": {
@@ -651,6 +743,15 @@
     },
     "wringout": {
       "inherit": true
+    },
+    "yawn": {
+      "inherit": true,
+      "condition": {
+        "noCopy": true,
+        "duration": 2,
+        "onResidualOrder": 10,
+        "onResidualSubOrder": 19
+      }
     }
   }
 }

@@ -1,0 +1,12 @@
+{
+  "Items": {
+    "blueorb": {
+      "inherit": true,
+      "onTakeItem": false
+    },
+    "redorb": {
+      "inherit": true,
+      "onTakeItem": false
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "TypeChart": {
-    "Bug": {
+    "bug": {
       "damageTaken": {
         "Bug": 0,
         "Dark": 0,
@@ -31,7 +31,7 @@
         "def": 13
       }
     },
-    "Dark": {
+    "dark": {
       "damageTaken": {
         "prankster": 3,
         "Bug": 1,
@@ -55,7 +55,7 @@
       },
       "HPivs": {}
     },
-    "Dragon": {
+    "dragon": {
       "damageTaken": {
         "Bug": 0,
         "Dark": 0,
@@ -83,7 +83,7 @@
         "def": 14
       }
     },
-    "Electric": {
+    "electric": {
       "damageTaken": {
         "par": 3,
         "Bug": 0,
@@ -112,7 +112,7 @@
         "atk": 14
       }
     },
-    "Fairy": {
+    "fairy": {
       "damageTaken": {
         "Bug": 2,
         "Dark": 2,
@@ -134,7 +134,7 @@
         "Water": 0
       }
     },
-    "Fighting": {
+    "fighting": {
       "damageTaken": {
         "Bug": 2,
         "Dark": 2,
@@ -166,7 +166,7 @@
         "def": 12
       }
     },
-    "Fire": {
+    "fire": {
       "damageTaken": {
         "brn": 3,
         "Bug": 2,
@@ -198,7 +198,7 @@
         "def": 12
       }
     },
-    "Flying": {
+    "flying": {
       "damageTaken": {
         "Bug": 2,
         "Dark": 0,
@@ -231,7 +231,7 @@
         "def": 13
       }
     },
-    "Ghost": {
+    "ghost": {
       "damageTaken": {
         "trapped": 3,
         "Bug": 2,
@@ -262,7 +262,7 @@
         "def": 14
       }
     },
-    "Grass": {
+    "grass": {
       "damageTaken": {
         "powder": 3,
         "Bug": 1,
@@ -293,7 +293,7 @@
         "def": 14
       }
     },
-    "Ground": {
+    "ground": {
       "damageTaken": {
         "sandstorm": 3,
         "Bug": 0,
@@ -323,7 +323,7 @@
         "atk": 12
       }
     },
-    "Ice": {
+    "ice": {
       "damageTaken": {
         "hail": 3,
         "frz": 3,
@@ -354,7 +354,7 @@
         "def": 13
       }
     },
-    "Normal": {
+    "normal": {
       "damageTaken": {
         "Bug": 0,
         "Dark": 0,
@@ -376,7 +376,7 @@
         "Water": 0
       }
     },
-    "Poison": {
+    "poison": {
       "damageTaken": {
         "psn": 3,
         "tox": 3,
@@ -409,7 +409,7 @@
         "def": 14
       }
     },
-    "Psychic": {
+    "psychic": {
       "damageTaken": {
         "Bug": 1,
         "Dark": 1,
@@ -438,7 +438,7 @@
         "def": 12
       }
     },
-    "Rock": {
+    "rock": {
       "damageTaken": {
         "sandstorm": 3,
         "Bug": 0,
@@ -470,7 +470,7 @@
         "def": 12
       }
     },
-    "Steel": {
+    "steel": {
       "damageTaken": {
         "psn": 3,
         "tox": 3,
@@ -501,7 +501,7 @@
         "atk": 13
       }
     },
-    "Water": {
+    "water": {
       "damageTaken": {
         "Bug": 0,
         "Dark": 0,

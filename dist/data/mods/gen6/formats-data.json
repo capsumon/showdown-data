@@ -1834,7 +1834,8 @@
         "fakeout",
         "poweruppunch",
         "return",
-        "suckerpunch"
+        "suckerpunch",
+        "seismictoss"
       ],
       "randomDoubleBattleMoves": [
         "crunch",
@@ -3503,7 +3504,6 @@
     "shuckle": {
       "randomBattleMoves": [
         "encore",
-        "infestation",
         "knockoff",
         "stealthrock",
         "stickyweb",
@@ -8775,7 +8775,7 @@
         "protect",
         "wideguard"
       ],
-      "tier": "UU",
+      "tier": "UUBL",
       "doublesTier": "DOU"
     },
     "tympole": {
@@ -10410,7 +10410,6 @@
     "kyuremwhite": {
       "randomBattleMoves": [
         "dracometeor",
-        "dragonpulse",
         "earthpower",
         "focusblast",
         "fusionflare",
@@ -10987,13 +10986,9 @@
     "slurpuff": {
       "randomBattleMoves": [
         "bellydrum",
-        "calmmind",
-        "dazzlinggleam",
         "drainpunch",
-        "flamethrower",
         "playrough",
-        "return",
-        "surf"
+        "return"
       ],
       "randomDoubleBattleMoves": [
         "bellydrum",

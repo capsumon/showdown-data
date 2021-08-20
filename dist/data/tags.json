@@ -15,6 +15,15 @@
     "mega": {
       "name": "Mega"
     },
+    "mythical": {
+      "name": "Mythical"
+    },
+    "sublegendary": {
+      "name": "Sub-Legendary"
+    },
+    "restrictedlegendary": {
+      "name": "Restricted Legendary"
+    },
     "zmove": {
       "name": "Z-Move"
     },
@@ -111,8 +120,8 @@
     "lc": {
       "name": "LC"
     },
-    "cap": {
-      "name": "CAP"
+    "captier": {
+      "name": "CAP Tier"
     },
     "caplc": {
       "name": "CAP LC"
@@ -122,6 +131,9 @@
     },
     "ag": {
       "name": "AG"
+    },
+    "nduubl": {
+      "name": "ND UUBL"
     },
     "duber": {
       "name": "DUber"
@@ -144,14 +156,69 @@
     "future": {
       "name": "Future"
     },
-    "unobtainable": {
-      "name": "Unobtainable"
-    },
     "lgpe": {
       "name": "LGPE"
     },
+    "unobtainable": {
+      "name": "Unobtainable"
+    },
+    "cap": {
+      "name": "CAP"
+    },
     "custom": {
       "name": "Custom"
+    },
+    "nonexistent": {
+      "name": "Nonexistent"
+    },
+    "introducedgen": {
+      "name": "Introduced Gen"
+    },
+    "height": {
+      "name": "Height"
+    },
+    "weight": {
+      "name": "Weight"
+    },
+    "hp": {
+      "name": "HP",
+      "desc": "Hit Points"
+    },
+    "atk": {
+      "name": "Atk",
+      "desc": "Attack"
+    },
+    "def": {
+      "name": "Def",
+      "desc": "Defense"
+    },
+    "spa": {
+      "name": "SpA",
+      "desc": "Special Attack"
+    },
+    "spd": {
+      "name": "SpD",
+      "desc": "Special Defense"
+    },
+    "spe": {
+      "name": "Spe",
+      "desc": "Speed"
+    },
+    "bst": {
+      "name": "BST",
+      "desc": "Base Stat Total"
+    },
+    "basepower": {
+      "name": "Base Power"
+    },
+    "priority": {
+      "name": "Priority"
+    },
+    "accuracy": {
+      "name": "Accuracy"
+    },
+    "maxpp": {
+      "name": "Max PP"
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "Moves": {
+    "bellydrum": {
+      "inherit": true
+    },
+    "destinybond": {
+      "inherit": true,
+      "condition": {
+        "onBeforeMovePriority": -1
+      }
+    },
+    "haze": {
+      "inherit": true
+    },
+    "perishsong": {
+      "inherit": true
+    }
+  }
+}

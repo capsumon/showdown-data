@@ -259,6 +259,12 @@
             "ancientpower"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 5
+        }
       ]
     },
     "ivysaur": {
@@ -798,6 +804,12 @@
             "growl",
             "crunch"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 5
         }
       ]
     },
@@ -1429,6 +1441,12 @@
             "zapcannon"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 5
+        }
       ]
     },
     "wartortle": {
@@ -1846,7 +1864,17 @@
           "2L1",
           "1L1"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 3
+        },
+        {
+          "generation": 2,
+          "level": 3
+        }
+      ]
     },
     "metapod": {
       "learnset": {
@@ -1856,7 +1884,21 @@
           "1L7",
           "1L1"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 4
+        },
+        {
+          "generation": 2,
+          "level": 4
+        },
+        {
+          "generation": 3,
+          "level": 4
+        }
+      ]
     },
     "butterfree": {
       "learnset": {
@@ -2012,7 +2054,13 @@
           "1L23",
           "1L26"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 7
+        }
+      ]
     },
     "weedle": {
       "learnset": {
@@ -2024,7 +2072,17 @@
           "2L1",
           "1L1"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 3
+        },
+        {
+          "generation": 2,
+          "level": 3
+        }
+      ]
     },
     "kakuna": {
       "learnset": {
@@ -2033,7 +2091,17 @@
           "2L1",
           "1L1"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 4
+        },
+        {
+          "generation": 2,
+          "level": 4
+        }
+      ]
     },
     "beedrill": {
       "learnset": {
@@ -2163,7 +2231,13 @@
           "2L20",
           "1L20"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 7
+        }
+      ]
     },
     "pidgey": {
       "learnset": {
@@ -2301,7 +2375,17 @@
           "2L29",
           "1L28"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 2
+        },
+        {
+          "generation": 2,
+          "level": 2
+        }
+      ]
     },
     "pidgeotto": {
       "learnset": {
@@ -2432,7 +2516,17 @@
           "2L33",
           "1L31"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 9
+        },
+        {
+          "generation": 2,
+          "level": 7
+        }
+      ]
     },
     "pidgeot": {
       "learnset": {
@@ -2736,7 +2830,17 @@
         "watergun": [
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 2
+        },
+        {
+          "generation": 2,
+          "level": 2
+        }
+      ]
     },
     "raticate": {
       "learnset": {
@@ -2907,7 +3011,17 @@
         "watergun": [
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        },
+        {
+          "generation": 2,
+          "level": 6
+        }
+      ]
     },
     "spearow": {
       "learnset": {
@@ -3066,6 +3180,16 @@
             "sonicboom"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 3
+        },
+        {
+          "generation": 2,
+          "level": 2
+        }
       ]
     },
     "fearow": {
@@ -3218,6 +3342,16 @@
             "payday"
           ],
           "japan": true
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 19
+        },
+        {
+          "generation": 2,
+          "level": 7
         }
       ]
     },
@@ -3515,7 +3649,13 @@
           "2L1",
           "1L1"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 10
+        }
+      ]
     },
     "pichu": {
       "learnset": {
@@ -3902,6 +4042,16 @@
             "surf"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 3
+        },
+        {
+          "generation": 2,
+          "level": 4
+        }
       ]
     },
     "raichu": {
@@ -4244,7 +4394,13 @@
           "2M",
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 6
+        }
+      ]
     },
     "sandslash": {
       "learnset": {
@@ -4416,7 +4572,13 @@
           "2M",
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 10
+        }
+      ]
     },
     "nidoranf": {
       "learnset": {
@@ -4627,6 +4789,12 @@
             "tackle",
             "sweetkiss"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 2
         }
       ]
     },
@@ -5228,6 +5396,12 @@
             "tackle",
             "sweetkiss"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 2
         }
       ]
     },
@@ -6051,7 +6225,13 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 8
+        }
+      ]
     },
     "clefable": {
       "learnset": {
@@ -6411,7 +6591,13 @@
           "2M",
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 18
+        }
+      ]
     },
     "ninetales": {
       "learnset": {
@@ -6943,7 +7129,17 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 3
+        },
+        {
+          "generation": 2,
+          "level": 3
+        }
+      ]
     },
     "wigglytuff": {
       "learnset": {
@@ -7154,7 +7350,13 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 22
+        }
+      ]
     },
     "zubat": {
       "learnset": {
@@ -7301,6 +7503,16 @@
             "flail"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 6
+        },
+        {
+          "generation": 2,
+          "level": 2
+        }
       ]
     },
     "golbat": {
@@ -7430,7 +7642,13 @@
           "2L30",
           "1L32"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 13
+        }
+      ]
     },
     "crobat": {
       "learnset": {
@@ -7672,6 +7890,12 @@
             "leechseed"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 12
+        }
       ]
     },
     "gloom": {
@@ -7801,7 +8025,13 @@
           "2M",
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 14
+        }
+      ]
     },
     "vileplume": {
       "learnset": {
@@ -8107,6 +8337,12 @@
             "synthesis"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 8
+        }
       ]
     },
     "parasect": {
@@ -8258,7 +8494,17 @@
           "2M",
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 13
+        },
+        {
+          "generation": 2,
+          "level": 5
+        }
+      ]
     },
     "venonat": {
       "learnset": {
@@ -8409,7 +8655,13 @@
           "2M",
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 13
+        }
+      ]
     },
     "venomoth": {
       "learnset": {
@@ -8574,7 +8826,17 @@
         "whirlwind": [
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 30
+        },
+        {
+          "generation": 2,
+          "level": 10
+        }
+      ]
     },
     "diglett": {
       "learnset": {
@@ -8713,7 +8975,17 @@
           "2M",
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        },
+        {
+          "generation": 2,
+          "level": 2
+        }
+      ]
     },
     "dugtrio": {
       "learnset": {
@@ -8848,7 +9120,17 @@
         "triattack": [
           "2L1"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        },
+        {
+          "generation": 2,
+          "level": 5
+        }
+      ]
     },
     "meowth": {
       "learnset": {
@@ -9019,7 +9301,13 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 10
+        }
+      ]
     },
     "persian": {
       "learnset": {
@@ -9188,7 +9476,13 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 18
+        }
+      ]
     },
     "psyduck": {
       "learnset": {
@@ -9436,6 +9730,12 @@
             "triattack"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        }
       ]
     },
     "golduck": {
@@ -9630,7 +9930,17 @@
         "whirlpool": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        },
+        {
+          "generation": 2,
+          "level": 10
+        }
+      ]
     },
     "mankey": {
       "learnset": {
@@ -9834,7 +10144,13 @@
           "2M",
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 3
+        }
+      ]
     },
     "primeape": {
       "learnset": {
@@ -10035,7 +10351,13 @@
           "2M",
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 15
+        }
+      ]
     },
     "growlithe": {
       "learnset": {
@@ -10182,7 +10504,13 @@
           "2M",
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        }
+      ]
     },
     "arcanine": {
       "learnset": {
@@ -10512,6 +10840,16 @@
             "sweetkiss"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 5
+        },
+        {
+          "generation": 2,
+          "level": 3
+        }
       ]
     },
     "poliwhirl": {
@@ -10700,7 +11038,17 @@
         "whirlpool": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        },
+        {
+          "generation": 2,
+          "level": 10
+        }
+      ]
     },
     "poliwrath": {
       "learnset": {
@@ -11058,6 +11406,12 @@
             "foresight"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 6
+        }
       ]
     },
     "kadabra": {
@@ -11244,7 +11598,13 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 15
+        }
+      ]
     },
     "alakazam": {
       "learnset": {
@@ -11653,6 +12013,12 @@
             "thrash"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        }
       ]
     },
     "machoke": {
@@ -11831,7 +12197,13 @@
         "vitalthrow": [
           "2L34"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 14
+        }
+      ]
     },
     "machamp": {
       "learnset": {
@@ -12013,7 +12385,17 @@
         "vitalthrow": [
           "2L34"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 16
+        },
+        {
+          "generation": 2,
+          "level": 5
+        }
+      ]
     },
     "bellsprout": {
       "learnset": {
@@ -12185,6 +12567,16 @@
             "sweetkiss"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 12
+        },
+        {
+          "generation": 2,
+          "level": 3
+        }
       ]
     },
     "weepinbell": {
@@ -12321,7 +12713,13 @@
           "1L13",
           "1L1"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 12
+        }
+      ]
     },
     "victreebel": {
       "learnset": {
@@ -12626,6 +13024,12 @@
             "confuseray"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 5
+        }
       ]
     },
     "tentacruel": {
@@ -12781,7 +13185,17 @@
           "1L13",
           "1L1"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 20
+        },
+        {
+          "generation": 2,
+          "level": 20
+        }
+      ]
     },
     "geodude": {
       "learnset": {
@@ -12962,6 +13376,16 @@
             "rapidspin"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 7
+        },
+        {
+          "generation": 2,
+          "level": 2
+        }
       ]
     },
     "graveler": {
@@ -13129,7 +13553,13 @@
           "2M",
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 23
+        }
+      ]
     },
     "golem": {
       "learnset": {
@@ -13471,6 +13901,12 @@
             "lowkick"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 28
+        }
       ]
     },
     "rapidash": {
@@ -13628,6 +14064,13 @@
             "payday"
           ],
           "japan": true
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 14,
+          "gender": "M"
         }
       ]
     },
@@ -13840,7 +14283,13 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        }
+      ]
     },
     "slowbro": {
       "learnset": {
@@ -14078,7 +14527,21 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        },
+        {
+          "generation": 1,
+          "level": 23
+        },
+        {
+          "generation": 2,
+          "level": 20
+        }
+      ]
     },
     "magnemite": {
       "learnset": {
@@ -14216,6 +14679,12 @@
             "agility"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 16
+        }
       ]
     },
     "magneton": {
@@ -14351,7 +14820,13 @@
           "2M",
           "2L53"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 5
+        }
+      ]
     },
     "farfetchd": {
       "learnset": {
@@ -14545,6 +15020,12 @@
             "furycutter"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 3
+        }
       ]
     },
     "doduo": {
@@ -14705,6 +15186,16 @@
             "lowkick"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 18
+        },
+        {
+          "generation": 2,
+          "level": 4
+        }
       ]
     },
     "dodrio": {
@@ -14841,7 +15332,22 @@
         "whirlwind": [
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 29
+        },
+        {
+          "generation": 2,
+          "level": 10,
+          "gender": "F"
+        },
+        {
+          "generation": 2,
+          "level": 30
+        }
+      ]
     },
     "seel": {
       "learnset": {
@@ -15007,6 +15513,12 @@
             "flail"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 22
+        }
       ]
     },
     "dewgong": {
@@ -15146,7 +15658,17 @@
         "whirlpool": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        },
+        {
+          "generation": 2,
+          "level": 5
+        }
+      ]
     },
     "grimer": {
       "learnset": {
@@ -15303,7 +15825,13 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 23
+        }
+      ]
     },
     "muk": {
       "learnset": {
@@ -15457,7 +15985,17 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 25
+        },
+        {
+          "generation": 2,
+          "level": 5
+        }
+      ]
     },
     "shellder": {
       "learnset": {
@@ -15605,7 +16143,13 @@
           "2L1",
           "1L1"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 10
+        }
+      ]
     },
     "cloyster": {
       "learnset": {
@@ -15887,7 +16431,13 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 18
+        }
+      ]
     },
     "haunter": {
       "learnset": {
@@ -16026,7 +16576,17 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 20
+        },
+        {
+          "generation": 2,
+          "level": 15
+        }
+      ]
     },
     "gengar": {
       "learnset": {
@@ -16384,6 +16944,12 @@
             "sharpen"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 13
+        }
       ]
     },
     "drowzee": {
@@ -16587,6 +17153,12 @@
             "amnesia"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 9
+        }
       ]
     },
     "hypno": {
@@ -16775,7 +17347,17 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 16
+        },
+        {
+          "generation": 4,
+          "level": 16
+        }
+      ]
     },
     "krabby": {
       "learnset": {
@@ -16953,6 +17535,12 @@
             "metalclaw"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 10
+        }
       ]
     },
     "kingler": {
@@ -17106,7 +17694,13 @@
         "whirlpool": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        }
+      ]
     },
     "voltorb": {
       "learnset": {
@@ -17248,6 +17842,16 @@
             "agility"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 14
+        },
+        {
+          "generation": 1,
+          "level": 40
+        }
       ]
     },
     "electrode": {
@@ -17386,7 +17990,17 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 3
+        },
+        {
+          "generation": 2,
+          "level": 23
+        }
+      ]
     },
     "exeggcute": {
       "learnset": {
@@ -17565,6 +18179,12 @@
             "hypnosis",
             "sweetscent"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 20
         }
       ]
     },
@@ -17945,6 +18565,12 @@
             "furyattack"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 16
+        }
       ]
     },
     "marowak": {
@@ -18151,7 +18777,17 @@
         "watergun": [
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 24
+        },
+        {
+          "generation": 2,
+          "level": 12
+        }
+      ]
     },
     "tyrogue": {
       "learnset": {
@@ -18414,7 +19050,13 @@
           "2M",
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 30
+        }
+      ]
     },
     "hitmonchan": {
       "learnset": {
@@ -18565,7 +19207,13 @@
           "2M",
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 30
+        }
+      ]
     },
     "hitmontop": {
       "learnset": {
@@ -18908,6 +19556,12 @@
             "doubleslap"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        }
       ]
     },
     "koffing": {
@@ -19045,7 +19699,13 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 30
+        }
+      ]
     },
     "weezing": {
       "learnset": {
@@ -19176,7 +19836,13 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 16
+        }
+      ]
     },
     "rhyhorn": {
       "learnset": {
@@ -19367,7 +20033,13 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 20
+        }
+      ]
     },
     "rhydon": {
       "learnset": {
@@ -19587,7 +20259,17 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        },
+        {
+          "generation": 2,
+          "level": 10
+        }
+      ]
     },
     "chansey": {
       "learnset": {
@@ -19846,6 +20528,12 @@
             "pound",
             "sweetscent"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 7
         }
       ]
     },
@@ -20175,6 +20863,12 @@
             "synthesis"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 13
+        }
       ]
     },
     "kangaskhan": {
@@ -20417,6 +21111,12 @@
             "feintattack"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 25
+        }
       ]
     },
     "horsea": {
@@ -20582,6 +21282,12 @@
             "haze"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 5
+        }
       ]
     },
     "seadra": {
@@ -20722,7 +21428,17 @@
         "whirlpool": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 20
+        },
+        {
+          "generation": 2,
+          "level": 20
+        }
+      ]
     },
     "kingdra": {
       "learnset": {
@@ -20980,6 +21696,12 @@
             "swordsdance"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 5
+        }
       ]
     },
     "seaking": {
@@ -21117,7 +21839,17 @@
         "watergun": [
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 23
+        },
+        {
+          "generation": 2,
+          "level": 10
+        }
+      ]
     },
     "staryu": {
       "learnset": {
@@ -21304,6 +22036,12 @@
             "twister"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 5
+        }
       ]
     },
     "starmie": {
@@ -21470,7 +22208,13 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 6
+        }
+      ]
     },
     "mrmime": {
       "learnset": {
@@ -21862,6 +22606,16 @@
             "leer",
             "sonicboom"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        },
+        {
+          "generation": 1,
+          "level": 25
         }
       ]
     },
@@ -22322,7 +23076,17 @@
         "watergun": [
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        },
+        {
+          "generation": 2,
+          "level": 10
+        }
+      ]
     },
     "elekid": {
       "learnset": {
@@ -22663,7 +23427,17 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 33
+        },
+        {
+          "generation": 2,
+          "level": 15
+        }
+      ]
     },
     "magby": {
       "learnset": {
@@ -22976,7 +23750,17 @@
           "2M",
           "1M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 34
+        },
+        {
+          "generation": 2,
+          "level": 14
+        }
+      ]
     },
     "pinsir": {
       "learnset": {
@@ -23127,6 +23911,16 @@
             "visegrip",
             "rockthrow"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        },
+        {
+          "generation": 1,
+          "level": 20
         }
       ]
     },
@@ -23308,6 +24102,12 @@
             "quickattack"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 21
+        }
       ]
     },
     "magikarp": {
@@ -23361,6 +24161,12 @@
             "splash",
             "reversal"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 5
         }
       ]
     },
@@ -23539,7 +24345,17 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        },
+        {
+          "generation": 2,
+          "level": 15
+        }
+      ]
     },
     "lapras": {
       "learnset": {
@@ -23767,6 +24583,12 @@
             "futuresight"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        }
       ]
     },
     "ditto": {
@@ -23775,7 +24597,17 @@
           "2L1",
           "1L1"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 12
+        },
+        {
+          "generation": 2,
+          "level": 10
+        }
+      ]
     },
     "eevee": {
       "learnset": {
@@ -23933,6 +24765,12 @@
             "tailwhip",
             "growth"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 25
         }
       ]
     },
@@ -24873,6 +25711,12 @@
             "barrier"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 18
+        }
       ]
     },
     "porygon2": {
@@ -25161,6 +26005,12 @@
             "withdraw",
             "rockthrow"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 30
         }
       ]
     },
@@ -25492,6 +26342,12 @@
             "harden",
             "rockthrow"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 30
         }
       ]
     },
@@ -25849,6 +26705,12 @@
             "rockthrow"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 30
+        }
       ]
     },
     "snorlax": {
@@ -26125,6 +26987,12 @@
             "sweetkiss"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 30
+        }
       ]
     },
     "articuno": {
@@ -26293,6 +27161,12 @@
             "icebeam"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 50
+        }
       ]
     },
     "zapdos": {
@@ -26460,6 +27334,12 @@
             "drillpeck"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 50
+        }
       ]
     },
     "moltres": {
@@ -26619,6 +27499,12 @@
             "endure",
             "flamethrower"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 50
         }
       ]
     },
@@ -26839,6 +27725,12 @@
             "extremespeed"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 10
+        }
       ]
     },
     "dragonair": {
@@ -27018,7 +27910,17 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 15
+        },
+        {
+          "generation": 2,
+          "level": 10
+        }
+      ]
     },
     "dragonite": {
       "learnset": {
@@ -27502,6 +28404,12 @@
             "mist",
             "psychic"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 1,
+          "level": 70
         }
       ]
     },
@@ -29185,6 +30093,12 @@
             "dizzypunch"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 2
+        }
       ]
     },
     "furret": {
@@ -29307,7 +30221,13 @@
         "toxic": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 6
+        }
+      ]
     },
     "hoothoot": {
       "learnset": {
@@ -29440,6 +30360,12 @@
             "nightshade"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 2
+        }
       ]
     },
     "noctowl": {
@@ -29543,7 +30469,13 @@
         "toxic": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 7
+        }
+      ]
     },
     "ledyba": {
       "learnset": {
@@ -29675,6 +30607,12 @@
             "barrier"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 3
+        }
       ]
     },
     "ledian": {
@@ -29789,7 +30727,13 @@
         "toxic": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 7
+        }
+      ]
     },
     "spinarak": {
       "learnset": {
@@ -29919,6 +30863,12 @@
             "growth"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 3
+        }
       ]
     },
     "ariados": {
@@ -30022,7 +30972,13 @@
         "toxic": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 7
+        }
+      ]
     },
     "chinchou": {
       "learnset": {
@@ -30733,7 +31689,13 @@
         "toxic": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 15
+        }
+      ]
     },
     "mareep": {
       "learnset": {
@@ -31804,6 +32766,12 @@
             "agility"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 3
+        }
       ]
     },
     "skiploom": {
@@ -32635,6 +33603,12 @@
             "scaryface"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 4
+        }
       ]
     },
     "quagsire": {
@@ -32755,7 +33729,13 @@
         "whirlpool": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 15
+        }
+      ]
     },
     "murkrow": {
       "learnset": {
@@ -33171,7 +34151,13 @@
         "hiddenpower": [
           "2L1"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 5
+        }
+      ]
     },
     "wobbuffet": {
       "learnset": {
@@ -33205,6 +34191,12 @@
             "destinybond",
             "mimic"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 5
         }
       ]
     },
@@ -34271,7 +35263,13 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 15
+        }
+      ]
     },
     "qwilfish": {
       "learnset": {
@@ -34960,6 +35958,12 @@
             "sweetscent"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 2
+        }
       ]
     },
     "ursaring": {
@@ -35088,7 +36092,13 @@
         "zapcannon": [
           "2M"
         ]
-      }
+      },
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 25
+        }
+      ]
     },
     "slugma": {
       "learnset": {
@@ -36601,6 +37611,12 @@
           ],
           "japan": true
         }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 2
+        }
       ]
     },
     "donphan": {
@@ -37154,6 +38170,12 @@
             "quickattack"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 40
+        }
       ]
     },
     "entei": {
@@ -37286,6 +38308,12 @@
             "roar",
             "firespin"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 40
         }
       ]
     },
@@ -37433,6 +38461,12 @@
             "roar",
             "gust"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 40
         }
       ]
     },
@@ -37973,6 +39007,12 @@
             "recover"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 40
+        }
       ]
     },
     "hooh": {
@@ -38135,6 +39175,12 @@
             "recover"
           ]
         }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 40
+        }
       ]
     },
     "celebi": {
@@ -38269,6 +39315,12 @@
             "healbell",
             "recover"
           ]
+        }
+      ],
+      "encounters": [
+        {
+          "generation": 2,
+          "level": 40
         }
       ],
       "eventOnly": true

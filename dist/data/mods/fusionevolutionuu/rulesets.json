@@ -1,0 +1,19 @@
+{
+  "Rulesets": {
+    "teampreview": {
+      "effectType": "Rule",
+      "name": "Team Preview",
+      "desc": "Allows each player to see the Pok&eacute;mon on their opponent's team before they choose their lead Pok&eacute;mon"
+    },
+    "datamod": {
+      "effectType": "Rule",
+      "name": "Data Mod",
+      "desc": "When a new Pokémon switches in for the first time, information about its types, stats and Abilities is displayed to both players."
+    },
+    "megadatamod": {
+      "effectType": "Rule",
+      "name": "Mega Data Mod",
+      "desc": "Gives data on stats, Ability and types when a Pokémon Mega Evolves or undergoes Ultra Burst."
+    }
+  }
+}

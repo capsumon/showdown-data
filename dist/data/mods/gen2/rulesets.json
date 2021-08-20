@@ -1,5 +1,5 @@
 {
-  "Formats": {
+  "Rulesets": {
     "obtainablemoves": {
       "inherit": true,
       "banlist": [
@@ -45,6 +45,11 @@
         "Spore + Mean Look",
         "Spore + Spider Web"
       ]
+    },
+    "nintendocup2000movelegality": {
+      "effectType": "ValidatorRule",
+      "name": "Nintendo Cup 2000 Move Legality",
+      "desc": "Prevents Pokémon from having moves that would only be obtainable in Pokémon Crystal."
     }
   }
 }

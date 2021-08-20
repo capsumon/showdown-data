@@ -1,0 +1,23 @@
+{
+  "Moves": {
+    "attract": {
+      "inherit": true,
+      "condition": {
+        "noCopy": true,
+        "onBeforeMovePriority": 2
+      }
+    },
+    "gastroacid": {
+      "inherit": true,
+      "condition": {}
+    },
+    "safeguard": {
+      "inherit": true,
+      "condition": {
+        "duration": 5,
+        "onSideResidualOrder": 21,
+        "onSideResidualSubOrder": 2
+      }
+    }
+  }
+}

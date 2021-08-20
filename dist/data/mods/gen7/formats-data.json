@@ -1709,7 +1709,6 @@
     },
     "hitmonlee": {
       "randomBattleMoves": [
-        "fakeout",
         "highjumpkick",
         "knockoff",
         "machpunch",
@@ -2291,7 +2290,6 @@
       "randomBattleMoves": [
         "bounce",
         "dragondance",
-        "dragontail",
         "earthquake",
         "stoneedge",
         "substitute",
@@ -2424,8 +2422,7 @@
         "morningsun",
         "psychic",
         "psyshock",
-        "shadowball",
-        "substitute"
+        "shadowball"
       ],
       "randomDoubleBattleMoves": [
         "calmmind",
@@ -2647,8 +2644,7 @@
         "pursuit",
         "rest",
         "return",
-        "sleeptalk",
-        "whirlwind"
+        "sleeptalk"
       ],
       "randomDoubleBattleMoves": [
         "bodyslam",
@@ -2800,9 +2796,7 @@
         "icebeam",
         "psystrike",
         "recover",
-        "shadowball",
-        "taunt",
-        "willowisp"
+        "shadowball"
       ],
       "randomDoubleBattleMoves": [
         "aurasphere",
@@ -5891,8 +5885,7 @@
         "hiddenpowergrass",
         "hydropump",
         "icebeam",
-        "shellsmash",
-        "substitute"
+        "shellsmash"
       ],
       "randomDoubleBattleMoves": [
         "hiddenpowergrass",
@@ -6175,7 +6168,6 @@
     "latiosmega": {
       "randomBattleMoves": [
         "calmmind",
-        "defog",
         "dracometeor",
         "hiddenpowerfire",
         "psyshock",
@@ -6263,8 +6255,7 @@
         "rockpolish",
         "stealthrock",
         "stoneedge",
-        "swordsdance",
-        "toxic"
+        "swordsdance"
       ],
       "randomDoubleBattleMoves": [
         "firepunch",
@@ -6341,10 +6332,10 @@
     "deoxys": {
       "randomBattleMoves": [
         "extremespeed",
+        "icebeam",
         "firepunch",
         "knockoff",
         "psychoboost",
-        "spikes",
         "stealthrock",
         "superpower"
       ],
@@ -6367,7 +6358,6 @@
         "icebeam",
         "knockoff",
         "psychoboost",
-        "stealthrock",
         "superpower"
       ],
       "randomDoubleBattleMoves": [
@@ -12750,6 +12740,7 @@
       "randomBattleMoves": [
         "calmmind",
         "focusblast",
+        "moonblast",
         "moongeistbeam",
         "psyshock",
         "roost"

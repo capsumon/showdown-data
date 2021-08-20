@@ -42,9 +42,6 @@
     "arcticblast": {
       "noCopy": true
     },
-    "averardo": {
-      "noCopy": true
-    },
     "awauser": {
       "noCopy": true
     },
@@ -218,6 +215,9 @@
     "litteleven": {
       "noCopy": true
     },
+    "lunalauser": {
+      "noCopy": true
+    },
     "madmonty": {
       "noCopy": true
     },
@@ -290,9 +290,6 @@
       "innateName": "Sticky Hold",
       "shortDesc": "This Pokemon cannot lose its held item due to another Pokemon's attack."
     },
-    "quadrophenic": {
-      "noCopy": true
-    },
     "rabia": {
       "noCopy": true
     },
@@ -320,7 +317,7 @@
     "robb576": {
       "noCopy": true
     },
-    "sectoniaservant": {
+    "sectonia": {
       "noCopy": true
     },
     "segmr": {
@@ -397,13 +394,13 @@
       "effectType": "Weather",
       "duration": 0,
       "onTryMovePriority": 1,
-      "onResidualOrder": 1
+      "onFieldResidualOrder": 1
     },
     "winterhail": {
       "name": "Winter Hail",
       "effectType": "Weather",
       "duration": 0,
-      "onResidualOrder": 1
+      "onFieldResidualOrder": 1
     },
     "raindrop": {
       "name": "Raindrop",
@@ -447,42 +444,42 @@
       "name": "Turbulence",
       "effectType": "Weather",
       "duration": 0,
-      "onResidualOrder": 1
+      "onFieldResidualOrder": 1
     },
     "raindance": {
       "name": "RainDance",
       "effectType": "Weather",
       "duration": 5,
-      "onResidualOrder": 1
+      "onFieldResidualOrder": 1
     },
     "auroraveil": {
       "name": "Aurora Veil",
       "duration": 5,
-      "onResidualOrder": 21,
-      "onResidualSubOrder": 1
+      "onSideResidualOrder": 21,
+      "onSideResidualSubOrder": 1
     },
     "lightscreen": {
       "name": "Light Screen",
       "duration": 5,
-      "onResidualOrder": 21,
-      "onResidualSubOrder": 1
+      "onSideResidualOrder": 21,
+      "onSideResidualSubOrder": 1
     },
     "mist": {
       "name": "Mist",
       "duration": 5,
-      "onResidualOrder": 21,
-      "onResidualSubOrder": 3
+      "onSideResidualOrder": 21,
+      "onSideResidualSubOrder": 3
     },
     "reflect": {
       "name": "Reflect",
       "duration": 5,
-      "onResidualOrder": 21
+      "onSideResidualOrder": 21
     },
     "safeguard": {
       "name": "Safeguard",
       "duration": 5,
-      "onResidualOrder": 21,
-      "onResidualSubOrder": 2
+      "onSideResidualOrder": 21,
+      "onSideResidualSubOrder": 2
     },
     "gmaxsteelsurge": {},
     "spikes": {

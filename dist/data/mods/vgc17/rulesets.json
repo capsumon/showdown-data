@@ -1,5 +1,5 @@
 {
-  "Formats": {
+  "Rulesets": {
     "alolapokedex": {
       "effectType": "ValidatorRule",
       "name": "Alola Pokedex",
