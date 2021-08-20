@@ -13,10 +13,10 @@ All JSON files are located under the `dist/data` folder.
 
 Dependencies: Docker, git and node (for publishing).
 
-- **Install**: `make install`
-- **Build dist**: `make build`
-- **Upgrade Showdown and dependencies**: `make upgrade`
-- **Set version and new tag to current date**: `make tag`
+- **Install**: `docker-compose run --rm maker make install`
+- **Build dist**: `docker-compose run --rm maker make build`
+- **Upgrade Showdown and dependencies**: `docker-compose run --rm maker make upgrade`
+- **Set version and new tag to current date**: `docker-compose run --rm maker make tag`
 - **Publish to NPM**: `make publish`
 
 ### Upgrading

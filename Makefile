@@ -3,13 +3,13 @@ NEW_TAG=$(shell date +%Y.%m.%d)
 default: build
 
 install:
-	$(DC_RUN) yarn install
+	npm install
 
 build:
-	$(DC_RUN) /app/scripts/build.sh
+	./scripts/build.sh
 
 upgrade:
-	$(DC_RUN) yarn upgrade
+	npm upgrade pokemon-showdown
 	make build
 
 tag:
@@ -18,6 +18,9 @@ tag:
 publish:
 	git push --tags
 	npm publish
+
+dockerized-upgrade:
+	$(DC_RUN) make upgrade
 
 .SILENT:
 .PHONY: build
